@@ -1,0 +1,38 @@
+
+sex: 2 valores únicos
+Valores: ['Female', 'Male']
+Contagem:
+sex
+Female    194
+Male      726
+--------------------------------------------------
+
+dataset: 4 valores únicos
+Valores: ['Cleveland', 'Hungary', 'Switzerland', 'VA Long Beach']
+Contagem:
+dataset
+Cleveland        304
+Hungary          293
+Switzerland      123
+VA Long Beach    200
+--------------------------------------------------
+
+cp: 4 valores únicos
+Valores: ['asymptomatic', 'atypical angina', 'non-anginal', 'typical angina']
+Contagem:
+cp
+asymptomatic       496
+atypical angina    174
+non-anginal        204
+typical angina      46
+--------------------------------------------------
+
+fbs: 2 valores únicos
+Valores: [False, nan, True]
+Contagem:
+fbs
+False    692
+True     138
+--------------------------------------------------
+
+restecg: 3 valores únicos
