@@ -1,0 +1,31 @@
+id,age,sex,dataset,cp,trestbps,chol,fbs,restecg,thalch,exang,oldpeak,slope,ca,thal,num
+363,43,Female,Hungary,typical angina,100.0,223.0,False,normal,142.0,False,0.0,,,,0
+295,63,Female,Cleveland,asymptomatic,124.0,197.0,False,normal,136.0,True,0.0,flat,0.0,normal,1
+232,55,Female,Cleveland,asymptomatic,180.0,327.0,False,st-t abnormality,117.0,True,3.4,flat,0.0,normal,2
+302,57,Female,Cleveland,atypical angina,130.0,236.0,False,lv hypertrophy,174.0,False,0.0,flat,1.0,normal,1
+136,55,Female,Cleveland,atypical angina,135.0,250.0,False,lv hypertrophy,161.0,False,1.4,flat,0.0,normal,0
+400,48,Female,Hungary,asymptomatic,150.0,227.0,False,normal,130.0,True,1.0,flat,,,0
+911,51,Female,VA Long Beach,asymptomatic,114.0,258.0,True,lv hypertrophy,96.0,False,1.0,upsloping,,,0
+399,48,Female,Hungary,asymptomatic,120.0,254.0,False,st-t abnormality,110.0,False,0.0,,,,0
+623,50,Female,Switzerland,asymptomatic,160.0,0.0,,normal,110.0,False,0.0,,,normal,1
+422,51,Female,Hungary,non-anginal,130.0,220.0,False,normal,160.0,True,2.0,upsloping,,,0
+71,65,Female,Cleveland,non-anginal,155.0,269.0,False,normal,148.0,False,0.8,upsloping,0.0,normal,0
+8,57,Female,Cleveland,asymptomatic,120.0,354.0,False,normal,163.0,True,0.6,upsloping,0.0,normal,0
+462,55,Female,Hungary,atypical angina,130.0,394.0,False,lv hypertrophy,150.0,False,0.0,,,,0
+389,47,Female,Hungary,atypical angina,140.0,257.0,False,normal,135.0,False,1.0,upsloping,,,0
+449,54,Female,Hungary,atypical angina,150.0,230.0,False,normal,130.0,False,0.0,,,,0
+257,67,Female,Cleveland,asymptomatic,106.0,223.0,False,normal,142.0,False,0.3,upsloping,2.0,normal,0
+182,56,Female,Cleveland,asymptomatic,134.0,409.0,False,lv hypertrophy,150.0,True,1.9,flat,2.0,reversable defect,2
+90,51,Female,Cleveland,non-anginal,130.0,256.0,False,lv hypertrophy,149.0,False,0.5,upsloping,0.0,normal,0
+368,43,Female,Hungary,atypical angina,150.0,186.0,False,normal,154.0,False,0.0,,,,0
+262,58,Female,Cleveland,atypical angina,136.0,319.0,True,lv hypertrophy,152.0,False,0.0,upsloping,2.0,normal,3
+447,54,Female,Hungary,atypical angina,130.0,253.0,False,st-t abnormality,155.0,False,0.0,,,,0
+430,52,Female,Hungary,asymptomatic,130.0,180.0,False,normal,140.0,True,1.5,flat,,,0
+292,55,Female,Cleveland,atypical angina,132.0,342.0,False,normal,166.0,False,1.2,upsloping,0.0,normal,0
+719,73,Female,Switzerland,non-anginal,160.0,0.0,False,st-t abnormality,121.0,False,0.0,upsloping,,normal,1
+309,32,Female,Hungary,atypical angina,105.0,198.0,False,normal,165.0,False,0.0,,,,0
+226,34,Female,Cleveland,atypical angina,118.0,210.0,False,normal,192.0,False,0.7,upsloping,0.0,normal,0
+174,62,Female,Cleveland,asymptomatic,140.0,394.0,False,lv hypertrophy,157.0,False,1.2,flat,0.0,normal,0
+525,59,Female,Hungary,asymptomatic,130.0,338.0,True,st-t abnormality,130.0,True,1.5,flat,,,1
+395,48,Female,Hungary,atypical angina,120.0,,True,st-t abnormality,148.0,False,0.0,,,,0
+396,48,Female,Hungary,atypical angina,120.0,284.0,False,normal,120.0,False,0.0,,,,0
