@@ -1,0 +1,25 @@
+{
+  "model": "logistic",
+  "dataset": "linear",
+  "task": "severity",
+  "subgroup": "all",
+  "best_hyperparameters": {
+    "C": 0.01,
+    "solver": "lbfgs",
+    "l1_ratio": 0.0,
+    "class_weight": null
+  },
+  "n_train_total": 736,
+  "n_test": 184,
+  "metrics": {
+    "accuracy": 0.5597826086956522,
+    "balanced_accuracy": 0.30252765420735966,
+    "precision": 0.32103868574456806,
+    "recall": 0.30252765420735966,
+    "f1": 0.2756181599319721,
+    "f2": 0.28903944892316985,
+    "roc_auc": 0.7971741263029444,
+    "mcc": 0.31758212844639827
+  },
+  "timestamp": "2026-07-15T21:56:55.602659+00:00"
+}
