@@ -1,0 +1,8 @@
+# Tarefa secundaria: prever o nivel de severidade (num, 0-4) em vez de so
+# presenca/ausencia de doenca. Classes bem desbalanceadas (classe 4 tem
+# so ~22 amostras no treino) - resultados devem ser interpretados com
+# cautela, sobretudo balanced_accuracy e f1/f2 macro.
+model_name: random_forest
+dataset: tree
+task: severity
+subgroup: all

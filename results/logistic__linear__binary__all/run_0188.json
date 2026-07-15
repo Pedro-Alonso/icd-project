@@ -1,0 +1,30 @@
+{
+  "model": "logistic",
+  "dataset": "linear",
+  "task": "binary",
+  "subgroup": "all",
+  "combo_id": "C=10.0,class_weight=balanced,l1_ratio=0.0,solver=lbfgs",
+  "hyperparameters": {
+    "C": 10.0,
+    "solver": "lbfgs",
+    "l1_ratio": 0.0,
+    "class_weight": "balanced"
+  },
+  "repeat_idx": 2,
+  "fold_idx": 2,
+  "seed": 1308142616,
+  "n_train_fold": 589,
+  "n_val_fold": 147,
+  "metrics": {
+    "accuracy": 0.8775510204081632,
+    "balanced_accuracy": 0.8762626262626263,
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1": 0.8888888888888888,
+    "f2": 0.8888888888888888,
+    "roc_auc": 0.9435091657313879,
+    "mcc": 0.7525252525252525
+  },
+  "execution_time_seconds": 0.06337170000188053,
+  "timestamp": "2026-07-15T08:39:07.119972+00:00"
+}

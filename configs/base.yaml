@@ -1,0 +1,22 @@
+# Defaults globais do projeto. Configs de experimento (configs/experiments/*.yaml)
+# podem sobrescrever qualquer um desses campos.
+
+master_seed: 42
+
+cross_validation:
+  n_splits: 5
+  n_repeats: 5
+
+metrics:
+  - accuracy
+  - balanced_accuracy
+  - precision
+  - recall
+  - f1
+  - f2
+  - roc_auc
+  - mcc
+
+primary_metric: roc_auc   # metrica usada para rankear e escolher a melhor combinacao
+
+run_final_test: true

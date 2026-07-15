@@ -1,0 +1,6 @@
+2026-07-15 05:38:50 | INFO    | pipeline.run_model | === run_model: model=logistic dataset=linear task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 05:38:50 | INFO    | pipeline.run_model | 8 combinacoes de hiperparametros a avaliar.
+2026-07-15 05:38:50 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 05:39:08 | INFO    | pipeline.run_model | Grid search concluido: 200 runs novos, 0 pulados (ja existiam).
+2026-07-15 05:39:11 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): C=0.1,class_weight=balanced,l1_ratio=0.0,solver=lbfgs
+2026-07-15 05:39:11 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8260869565217391, 'balanced_accuracy': 0.8240076518412243, 'precision': 0.8431372549019608, 'recall': 0.8431372549019608, 'f1': 0.8431372549019608, 'f2': 0.8431372549019608, 'roc_auc': 0.8841463414634146, 'mcc': 0.6480153036824486}

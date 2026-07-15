@@ -1,0 +1,4 @@
+model_name: logistic
+dataset: linear
+task: binary        # doenca (0/1)
+subgroup: all        # all | male | female
