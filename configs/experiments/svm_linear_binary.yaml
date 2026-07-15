@@ -1,0 +1,4 @@
+model_name: svm
+dataset: linear
+task: binary
+subgroup: all

@@ -1,0 +1,9 @@
+# Experimento de comparacao: modelo treinado SO com amostras masculinas.
+# Comparar summary.json / test_results.json deste experimento contra
+# random_forest_tree_binary.yaml (subgroup=all) e
+# random_forest_tree_binary_female.yaml para avaliar se separar por sexo
+# realmente melhora o desempenho ou so reduz amostra sem ganho.
+model_name: random_forest
+dataset: tree
+task: binary
+subgroup: male
