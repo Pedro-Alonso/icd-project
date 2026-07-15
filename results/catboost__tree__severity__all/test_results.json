@@ -1,0 +1,25 @@
+{
+  "model": "catboost",
+  "dataset": "tree",
+  "task": "severity",
+  "subgroup": "all",
+  "best_hyperparameters": {
+    "iterations": 200,
+    "depth": 4,
+    "learning_rate": 0.05,
+    "l2_leaf_reg": 5
+  },
+  "n_train_total": 736,
+  "n_test": 184,
+  "metrics": {
+    "accuracy": 0.5760869565217391,
+    "balanced_accuracy": 0.3435372671336776,
+    "precision": 0.3656665085388994,
+    "recall": 0.3435372671336776,
+    "f1": 0.3385748665748666,
+    "f2": 0.3396553784904036,
+    "roc_auc": 0.8049273969135562,
+    "mcc": 0.36151539961797774
+  },
+  "timestamp": "2026-07-15T21:21:26.295136+00:00"
+}
