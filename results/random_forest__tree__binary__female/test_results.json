@@ -1,0 +1,25 @@
+{
+  "model": "random_forest",
+  "dataset": "tree",
+  "task": "binary",
+  "subgroup": "female",
+  "best_hyperparameters": {
+    "n_estimators": 200,
+    "max_depth": null,
+    "min_samples_leaf": 5,
+    "class_weight": null
+  },
+  "n_train_total": 155,
+  "n_test": 39,
+  "metrics": {
+    "accuracy": 0.8205128205128205,
+    "balanced_accuracy": 0.7155172413793103,
+    "precision": 0.7142857142857143,
+    "recall": 0.5,
+    "f1": 0.5882352941176471,
+    "f2": 0.5319148936170213,
+    "roc_auc": 0.8482758620689655,
+    "mcc": 0.49044126607370664
+  },
+  "timestamp": "2026-07-15T10:23:31.407924+00:00"
+}
