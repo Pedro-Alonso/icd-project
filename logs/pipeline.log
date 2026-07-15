@@ -19,3 +19,115 @@
 2026-07-15 06:43:01 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=balanced,max_depth=5,min_samples_leaf=5,n_estimators=400
 2026-07-15 06:43:03 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8206521739130435, 'balanced_accuracy': 0.8179100908656145, 'precision': 0.8349514563106796, 'recall': 0.8431372549019608, 'f1': 0.8390243902439024, 'f2': 0.8414872798434442, 'roc_auc': 0.8827116212338594, 'mcc': 0.6366198840097675}
 2026-07-15 06:43:10 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=binary subgroup=female n_splits=5 n_repeats=5 ===
+2026-07-15 06:43:10 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 06:43:11 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 07:23:07 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 07:23:30 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=None,min_samples_leaf=5,n_estimators=200
+2026-07-15 07:23:31 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8205128205128205, 'balanced_accuracy': 0.7155172413793103, 'precision': 0.7142857142857143, 'recall': 0.5, 'f1': 0.5882352941176471, 'f2': 0.5319148936170213, 'roc_auc': 0.8482758620689655, 'mcc': 0.49044126607370664}
+2026-07-15 07:23:38 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=binary subgroup=male n_splits=5 n_repeats=5 ===
+2026-07-15 07:23:38 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 07:23:38 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 08:05:18 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 08:05:43 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=200
+2026-07-15 08:05:44 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8206896551724138, 'balanced_accuracy': 0.7867104183757178, 'precision': 0.8235294117647058, 'recall': 0.9130434782608695, 'f1': 0.865979381443299, 'f2': 0.8936170212765957, 'roc_auc': 0.8568498769483183, 'mcc': 0.6046039844486432}
+2026-07-15 08:05:52 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=severity subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 08:05:52 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 08:05:52 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 08:56:51 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 08:57:14 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=800
+2026-07-15 08:57:18 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.5652173913043478, 'balanced_accuracy': 0.32145480731536874, 'precision': 0.31280179982440737, 'recall': 0.32145480731536874, 'f1': 0.2988684964908234, 'f2': 0.3110511190116587, 'roc_auc': 0.8056457878302059, 'mcc': 0.34099545660266345}
+2026-07-15 08:57:26 | INFO    | pipeline.run_model | === run_model: model=svm dataset=linear task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 08:57:26 | INFO    | pipeline.run_model | 24 combinacoes de hiperparametros a avaliar.
+2026-07-15 08:57:26 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 09:00:18 | INFO    | pipeline.run_model | Grid search concluido: 600 runs novos, 0 pulados (ja existiam).
+2026-07-15 09:00:28 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): C=1.0,class_weight=None,gamma=auto,kernel=rbf
+2026-07-15 09:00:28 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8152173913043478, 'balanced_accuracy': 0.8082257293161167, 'precision': 0.8090909090909091, 'recall': 0.8725490196078431, 'f1': 0.839622641509434, 'f2': 0.859073359073359, 'roc_auc': 0.8836681013868962, 'mcc': 0.6248757833031275}
+2026-07-15 09:00:34 | INFO    | pipeline.run_model | === run_model: model=xgboost dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 15:08:24 | INFO    | pipeline.run_model | === run_model: model=xgboost dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 15:08:24 | INFO    | pipeline.run_model | 72 combinacoes de hiperparametros a avaliar.
+2026-07-15 15:08:24 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 15:21:42 | INFO    | pipeline.run_model | Grid search concluido: 1800 runs novos, 0 pulados (ja existiam).
+2026-07-15 15:22:14 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=0.8
+2026-07-15 15:22:15 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.7934782608695652, 'balanced_accuracy': 0.7898134863701578, 'precision': 0.8076923076923077, 'recall': 0.8235294117647058, 'f1': 0.8155339805825242, 'f2': 0.8203125, 'roc_auc': 0.8742228598756576, 'mcc': 0.5811576191935892}
+2026-07-15 15:22:15 | INFO    | pipeline.run_model | === run_model: model=lightgbm dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 15:22:15 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 15:22:15 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 15:33:17 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 15:33:39 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): learning_rate=0.01,min_child_samples=20,n_estimators=400,num_leaves=15
+2026-07-15 15:33:39 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.7717391304347826, 'balanced_accuracy': 0.7666188426590148, 'precision': 0.7830188679245284, 'recall': 0.8137254901960784, 'f1': 0.7980769230769231, 'f2': 0.8073929961089494, 'roc_auc': 0.8607125777140124, 'mcc': 0.536324470496557}
+2026-07-15 15:33:39 | INFO    | pipeline.run_model | === run_model: model=catboost dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 15:33:39 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 15:33:39 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 17:06:43 | INFO    | pipeline.run_model | === run_model: model=catboost dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:06:43 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:06:49 | INFO    | pipeline.run_model | 856 runs ja existentes (checkpoint).
+2026-07-15 17:12:37 | INFO    | pipeline.run_model | Grid search concluido: 494 runs novos, 856 pulados (ja existiam).
+2026-07-15 17:12:40 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): depth=4,iterations=400,l2_leaf_reg=3,learning_rate=0.01
+2026-07-15 17:12:40 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.7934782608695652, 'balanced_accuracy': 0.7838354854136776, 'precision': 0.7807017543859649, 'recall': 0.8725490196078431, 'f1': 0.8240740740740741, 'f2': 0.8524904214559387, 'roc_auc': 0.8882113821138211, 'mcc': 0.5811687482745117}
+2026-07-15 17:12:40 | INFO    | pipeline.run_model | === run_model: model=lightgbm dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:12:40 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): learning_rate=0.01,min_child_samples=20,n_estimators=400,num_leaves=15
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.7717391304347826, 'balanced_accuracy': 0.7666188426590148, 'precision': 0.7830188679245284, 'recall': 0.8137254901960784, 'f1': 0.7980769230769231, 'f2': 0.8073929961089494, 'roc_auc': 0.8607125777140124, 'mcc': 0.536324470496557}
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | === run_model: model=logistic dataset=linear task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:12:48 | INFO    | pipeline.run_model | 8 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | 200 runs ja existentes (checkpoint).
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 200 pulados (ja existiam).
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): C=0.1,class_weight=balanced,l1_ratio=0.0,solver=lbfgs
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8260869565217391, 'balanced_accuracy': 0.8240076518412243, 'precision': 0.8431372549019608, 'recall': 0.8431372549019608, 'f1': 0.8431372549019608, 'f2': 0.8431372549019608, 'roc_auc': 0.8841463414634146, 'mcc': 0.6480153036824486}
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:12:49 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:12:57 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 17:12:57 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 17:12:58 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=balanced,max_depth=5,min_samples_leaf=5,n_estimators=400
+2026-07-15 17:12:58 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8206521739130435, 'balanced_accuracy': 0.8179100908656145, 'precision': 0.8349514563106796, 'recall': 0.8431372549019608, 'f1': 0.8390243902439024, 'f2': 0.8414872798434442, 'roc_auc': 0.8827116212338594, 'mcc': 0.6366198840097675}
+2026-07-15 17:12:58 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=binary subgroup=female n_splits=5 n_repeats=5 ===
+2026-07-15 17:12:58 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=None,min_samples_leaf=5,n_estimators=200
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8205128205128205, 'balanced_accuracy': 0.7155172413793103, 'precision': 0.7142857142857143, 'recall': 0.5, 'f1': 0.5882352941176471, 'f2': 0.5319148936170213, 'roc_auc': 0.8482758620689655, 'mcc': 0.49044126607370664}
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=binary subgroup=male n_splits=5 n_repeats=5 ===
+2026-07-15 17:13:06 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=200
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8206896551724138, 'balanced_accuracy': 0.7867104183757178, 'precision': 0.8235294117647058, 'recall': 0.9130434782608695, 'f1': 0.865979381443299, 'f2': 0.8936170212765957, 'roc_auc': 0.8568498769483183, 'mcc': 0.6046039844486432}
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | === run_model: model=random_forest dataset=tree task=severity subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:13:14 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:13:22 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 17:13:22 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 17:13:22 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=800
+2026-07-15 17:13:23 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.5652173913043478, 'balanced_accuracy': 0.32145480731536874, 'precision': 0.31280179982440737, 'recall': 0.32145480731536874, 'f1': 0.2988684964908234, 'f2': 0.3110511190116587, 'roc_auc': 0.8056457878302059, 'mcc': 0.34099545660266345}
+2026-07-15 17:13:23 | INFO    | pipeline.run_model | === run_model: model=svm dataset=linear task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:13:23 | INFO    | pipeline.run_model | 24 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | 600 runs ja existentes (checkpoint).
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 600 pulados (ja existiam).
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): C=1.0,class_weight=None,gamma=auto,kernel=rbf
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.8152173913043478, 'balanced_accuracy': 0.8082257293161167, 'precision': 0.8090909090909091, 'recall': 0.8725490196078431, 'f1': 0.839622641509434, 'f2': 0.859073359073359, 'roc_auc': 0.8836681013868962, 'mcc': 0.6248757833031275}
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | === run_model: model=xgboost dataset=tree task=binary subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:13:27 | INFO    | pipeline.run_model | 72 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:13:37 | INFO    | pipeline.run_model | 1800 runs ja existentes (checkpoint).
+2026-07-15 17:13:37 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1800 pulados (ja existiam).
+2026-07-15 17:13:37 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=0.8
+2026-07-15 17:13:38 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.7880434782608695, 'balanced_accuracy': 0.783715925394548, 'precision': 0.8, 'recall': 0.8235294117647058, 'f1': 0.8115942028985508, 'f2': 0.8187134502923976, 'roc_auc': 0.8745815399330463, 'mcc': 0.5697869872428026}
+2026-07-15 17:39:59 | INFO    | pipeline.run_model | === run_model: model=catboost dataset=tree task=severity subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 17:39:59 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 17:39:59 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 18:14:21 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 18:14:29 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): depth=4,iterations=200,l2_leaf_reg=5,learning_rate=0.05
+2026-07-15 18:14:29 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.5760869565217391, 'balanced_accuracy': 0.3435372671336776, 'precision': 0.3656665085388994, 'recall': 0.3435372671336776, 'f1': 0.3385748665748666, 'f2': 0.3396553784904036, 'roc_auc': 0.8049273969135562, 'mcc': 0.36151539961797774}
+2026-07-15 18:21:25 | INFO    | pipeline.run_model | === run_model: model=catboost dataset=tree task=severity subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 18:21:25 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 18:21:25 | INFO    | pipeline.run_model | 1350 runs ja existentes (checkpoint).
+2026-07-15 18:21:25 | INFO    | pipeline.run_model | Grid search concluido: 0 runs novos, 1350 pulados (ja existiam).
+2026-07-15 18:21:25 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): depth=4,iterations=200,l2_leaf_reg=5,learning_rate=0.05
+2026-07-15 18:21:26 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.5760869565217391, 'balanced_accuracy': 0.3435372671336776, 'precision': 0.3656665085388994, 'recall': 0.3435372671336776, 'f1': 0.3385748665748666, 'f2': 0.3396553784904036, 'roc_auc': 0.8049273969135562, 'mcc': 0.36151539961797774}
+2026-07-15 18:21:26 | INFO    | pipeline.run_model | === run_model: model=lightgbm dataset=tree task=severity subgroup=all n_splits=5 n_repeats=5 ===
+2026-07-15 18:21:26 | INFO    | pipeline.run_model | 54 combinacoes de hiperparametros a avaliar.
+2026-07-15 18:21:26 | INFO    | pipeline.run_model | 0 runs ja existentes (checkpoint).
+2026-07-15 18:32:01 | INFO    | pipeline.run_model | Grid search concluido: 1350 runs novos, 0 pulados (ja existiam).
+2026-07-15 18:32:07 | INFO    | pipeline.run_model | Melhor combinacao (roc_auc): learning_rate=0.01,min_child_samples=20,n_estimators=200,num_leaves=31
+2026-07-15 18:32:08 | INFO    | pipeline.run_model | Avaliacao final no teste concluida: {'accuracy': 0.5380434782608695, 'balanced_accuracy': 0.3399132450444001, 'precision': 0.3370700679072229, 'recall': 0.3399132450444001, 'f1': 0.3345118538382371, 'f2': 0.33705979404904135, 'roc_auc': 0.7821630542262143, 'mcc': 0.30786419537190607}
+2026-07-15 18:32:08 | INFO    | pipeline.run_model | === run_model: model=logistic_regression dataset=linear task=severity subgroup=all n_splits=5 n_repeats=5 ===

@@ -1,0 +1,4 @@
+model_name: logistic_regression
+dataset: linear
+task: severity
+subgroup: all
