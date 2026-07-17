@@ -609,6 +609,37 @@ def _img_to_base64(path: Path) -> str:
     return base64.b64encode(path.read_bytes()).decode("ascii")
 
 
+def _slug_anchor(group: str) -> str:
+    return "grp_" + _safe_slug(group)
+
+
+def build_overview_table(df: pd.DataFrame, primary_metric: str) -> str:
+    """Painel-resumo: 1 linha por grupo (task/subgroup), com o melhor modelo
+    pela métrica primária e pelo score robusto, lado a lado. Não compara
+    grupos entre si (escalas diferentes) — só facilita bater o olho em qual
+    task/subgroup está indo melhor, cada um na sua própria régua."""
+    rows = []
+    for group, sub in df.groupby("group"):
+        n_models = sub["model"].nunique()
+        best_primary = sub.loc[sub[primary_metric].idxmax()] if sub[primary_metric].notna().any() else None
+        if sub["robust_rank"].notna().any():
+            best_robust = sub.loc[sub["robust_rank"].idxmin()]
+        else:
+            best_robust = None
+
+        rows.append({
+            "Grupo": f'<a href="#{_slug_anchor(group)}">{group}</a>',
+            "Nº modelos": n_models,
+            f"Melhor ({primary_metric})": f"{best_primary['model']} ({best_primary[primary_metric]:.3f})" if best_primary is not None else "—",
+            "Melhor (score robusto)": f"{best_robust['model']} ({best_robust['robust_score']:.3f})" if best_robust is not None else "—",
+            "n_test (min–max)": f"{int(sub['n_test'].min())}–{int(sub['n_test'].max())}" if sub["n_test"].notna().any() else "—",
+            "Diagnóstico ordinal?": "sim" if sub["has_diagnostics"].any() else "não",
+        })
+
+    overview_df = pd.DataFrame(rows)
+    return overview_df.to_html(index=False, border=0, classes="tbl", escape=False)
+
+
 def build_html_report(
     df: pd.DataFrame,
     group_figures: Dict[str, Dict[str, Path]],
@@ -637,13 +668,15 @@ def build_html_report(
                 figs_html += f'<div class="fig"><h4>{fig_name}</h4><img src="data:image/png;base64,{b64}" /></div>'
 
         sections.append(f"""
-        <section>
+        <section id="{_slug_anchor(group)}">
           <h2>{group}</h2>
           <div class="callout"><h3>Veredito</h3><ul>{verdict_html}</ul></div>
           {table_html}
           <div class="fig-grid">{figs_html}</div>
         </section>
         """)
+
+    overview_html = build_overview_table(df, primary_metric)
 
     html = f"""<!DOCTYPE html>
 <html lang="pt-br">
@@ -672,6 +705,9 @@ def build_html_report(
 <p class="subtitle">Baseado nos <code>test_results.json</code> de cada experimento. Métrica primária: <b>{primary_metric}</b>.
 Para grupos com diagnósticos ordinais, o score robusto usa QWK + within-1-rate + risco clínico ao invés de
 balanced_accuracy/mcc/f1.</p>
+
+<h2>Visão geral (cada grupo na sua própria régua — não são comparáveis entre si)</h2>
+{overview_html}
 
 {"".join(sections)}
 
