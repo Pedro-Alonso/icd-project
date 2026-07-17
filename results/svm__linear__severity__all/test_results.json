@@ -1,0 +1,190 @@
+{
+  "model": "svm",
+  "dataset": "linear",
+  "task": "severity",
+  "subgroup": "all",
+  "best_hyperparameters": {
+    "C": 1.0,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "class_weight": null
+  },
+  "n_train_total": 736,
+  "n_test": 184,
+  "metrics": {
+    "accuracy": 0.5815217391304348,
+    "balanced_accuracy": 0.357247618073665,
+    "precision": 0.3790510564704113,
+    "recall": 0.357247618073665,
+    "f1": 0.3559159663865546,
+    "f2": 0.3548227136216511,
+    "roc_auc": 0.8006696436518098,
+    "mcc": 0.36665097365510335
+  },
+  "diagnostics": {
+    "n_classes": 5,
+    "class_names": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "confusion_matrix": [
+      [
+        67,
+        11,
+        2,
+        2,
+        0
+      ],
+      [
+        17,
+        31,
+        3,
+        2,
+        0
+      ],
+      [
+        5,
+        8,
+        2,
+        1,
+        0
+      ],
+      [
+        3,
+        14,
+        3,
+        7,
+        0
+      ],
+      [
+        1,
+        2,
+        2,
+        1,
+        0
+      ]
+    ],
+    "per_class": {
+      "0": {
+        "precision": 0.7204301075268817,
+        "recall": 0.8170731707317073,
+        "f1": 0.7657142857142857,
+        "support": 82
+      },
+      "1": {
+        "precision": 0.4696969696969697,
+        "recall": 0.5849056603773585,
+        "f1": 0.5210084033613446,
+        "support": 53
+      },
+      "2": {
+        "precision": 0.16666666666666666,
+        "recall": 0.125,
+        "f1": 0.14285714285714285,
+        "support": 16
+      },
+      "3": {
+        "precision": 0.5384615384615384,
+        "recall": 0.25925925925925924,
+        "f1": 0.35,
+        "support": 27
+      },
+      "4": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0,
+        "support": 6
+      }
+    },
+    "mae": 0.6467391304347826,
+    "qwk": 0.46978859771540804,
+    "exact_match_rate": 0.5815217391304348,
+    "within_1_rate": 0.8206521739130435,
+    "mean_signed_error": -0.33152173913043476,
+    "underestimate_rate": 0.30434782608695654,
+    "overestimate_rate": 0.11413043478260869,
+    "underestimate_penalty_used": 1.5,
+    "clinical_risk_score": 1.684782608695652,
+    "error_by_true_class": {
+      "0": {
+        "n": 82,
+        "mae": 0.25609756097560976,
+        "mean_signed_error": 0.25609756097560976,
+        "underestimate_rate": 0.0,
+        "overestimate_rate": 0.18292682926829268,
+        "exact_rate": 0.8170731707317073,
+        "predicted_class_distribution": {
+          "0": 67,
+          "1": 11,
+          "2": 2,
+          "3": 2,
+          "4": 0
+        }
+      },
+      "1": {
+        "n": 53,
+        "mae": 0.4528301886792453,
+        "mean_signed_error": -0.18867924528301888,
+        "underestimate_rate": 0.32075471698113206,
+        "overestimate_rate": 0.09433962264150944,
+        "exact_rate": 0.5849056603773585,
+        "predicted_class_distribution": {
+          "0": 17,
+          "1": 31,
+          "2": 3,
+          "3": 2,
+          "4": 0
+        }
+      },
+      "2": {
+        "n": 16,
+        "mae": 1.1875,
+        "mean_signed_error": -1.0625,
+        "underestimate_rate": 0.8125,
+        "overestimate_rate": 0.0625,
+        "exact_rate": 0.125,
+        "predicted_class_distribution": {
+          "0": 5,
+          "1": 8,
+          "2": 2,
+          "3": 1,
+          "4": 0
+        }
+      },
+      "3": {
+        "n": 27,
+        "mae": 1.4814814814814814,
+        "mean_signed_error": -1.4814814814814814,
+        "underestimate_rate": 0.7407407407407407,
+        "overestimate_rate": 0.0,
+        "exact_rate": 0.25925925925925924,
+        "predicted_class_distribution": {
+          "0": 3,
+          "1": 14,
+          "2": 3,
+          "3": 7,
+          "4": 0
+        }
+      },
+      "4": {
+        "n": 6,
+        "mae": 2.5,
+        "mean_signed_error": -2.5,
+        "underestimate_rate": 1.0,
+        "overestimate_rate": 0.0,
+        "exact_rate": 0.0,
+        "predicted_class_distribution": {
+          "0": 1,
+          "1": 2,
+          "2": 2,
+          "3": 1,
+          "4": 0
+        }
+      }
+    }
+  },
+  "timestamp": "2026-07-17T19:28:24.519890+00:00"
+}
