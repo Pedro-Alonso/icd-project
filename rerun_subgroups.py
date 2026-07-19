@@ -6,19 +6,13 @@ tarefa binaria (ou troque TASK abaixo se quiser fazer o mesmo para
 "severity"). Ate agora so o random_forest tinha rodado nesses subgrupos -
 isso completa os outros 5, pra dar pra comparar de verdade (o script de
 comparacao trata grupo com 1 modelo so como "sem comparacao real ainda").
-
-Coloque este arquivo na RAIZ do projeto (mesmo nivel de pipeline/, models/,
-results/) e rode com:
-
-    python rerun_subgroups.py
 """
 
 from pipeline.run_model import run_model
 
-TASK = "binary"          # troque para "severity" se quiser rodar por subgrupo lá tambem
+TASK = "binary"         
 SUBGROUPS = ["male", "female"]
 
-# (model_name, dataset) - dataset e o que cada modelo espera (ver models/*.py)
 MODELS = [
     ("logistic", "linear"),
     ("random_forest", "tree"),

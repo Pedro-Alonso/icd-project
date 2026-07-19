@@ -1,34 +1,3 @@
-"""
-Pipeline de Engenharia de Features — Heart Disease UCI
-========================================================
-
-Implementa, em código, o plano metodológico descrito no documento
-`plano_engenharia_features_heart_disease.md`:
-
-    1. Correção de missing disfarçado (zeros clinicamente impossíveis -> NaN)
-    2. Indicadores binários de missingness (sinal MNAR)
-    3. Imputação em 3 sub-pipelines (A: leve/moderado quase-MAR;
-       B: moderado-alto com componente estrutural; C: MNAR extremo
-       estrutural por centro), sempre condicionada por `dataset`
-    4. Engenharia de features derivadas (bins clínicos, interações,
-       transformação log)
-    5. Tratamento de outliers via winsorização (não remoção de pacientes)
-    6. Encoding categórico + normalização condicionada ao tipo de modelo
-       (RobustScaler para modelos lineares/distância; nenhuma
-       normalização para modelos de árvore)
-    7. Utilitários de seleção de features (correlação, VIF, informação
-       mútua) para uso exploratório
-
-Todos os transformers seguem a API scikit-learn (fit/transform), o que
-permite usá-los dentro de um `sklearn.pipeline.Pipeline` e, portanto,
-dentro de validação cruzada sem vazamento de dados: o `fit` aprende
-parâmetros (imputadores, limites de winsorização, escalonador) apenas
-no fold de treino; o `transform` aplica esses mesmos parâmetros ao
-fold de validação/teste.
-
-Autor: plano gerado a partir da EDA `03_eda_final.ipynb`.
-"""
-
 from __future__ import annotations
 
 import warnings
@@ -567,13 +536,6 @@ def build_column_transformer(
 # ---------------------------------------------------------------------------
 
 class HeartDiseaseFeatureEngineeringPipeline(BaseEstimator, TransformerMixin):
-    """Pipeline de alto nível que encadeia todas as etapas 1–5 do plano
-    e devolve um DataFrame "rico" (todas as colunas originais + derivadas
-    + indicadores), pronto para a Etapa 6 (encoding/escalonamento
-    específico do modelo, feito separadamente via `build_column_transformer`
-    para permitir comparar `tree` vs `linear` sem refazer a imputação).
-    """
-
     def __init__(self, n_imputations_bc=5, random_state=42, winsorize=True):
         self.n_imputations_bc = n_imputations_bc
         self.random_state = random_state
@@ -632,10 +594,6 @@ class FEStep(BaseEstimator, TransformerMixin):
     def transform(self, X):
         return self.fe_.transform(X)
 
-
-# ---------------------------------------------------------------------------
-# Utilitários de seleção de features (Seção 8 — uso exploratório)
-# ---------------------------------------------------------------------------
 
 def compute_vif(df: pd.DataFrame, numeric_cols: list) -> pd.DataFrame:
     """Calcula o VIF (Variance Inflation Factor) para as colunas

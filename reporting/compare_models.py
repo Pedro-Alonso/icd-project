@@ -25,48 +25,6 @@ só sem os gráficos de matriz de confusão / viés direcional):
       "timestamp": "..."
     }
 
-Por que a versão anterior deste script não era boa o suficiente
--------------------------------------------------------------------
-A primeira versão comparava modelos só pelas métricas agregadas (roc_auc,
-balanced_accuracy, f1, mcc...), que tratam QUALQUER erro de classe como
-igualmente ruim. Numa tarefa ORDINAL como `severity` (níveis 0-4 de
-gravidade), isso é enganoso: confundir nível 4 com nível 3 é um erro
-pequeno; confundir nível 4 com nível 0 é grave — e subestimar a gravidade
-tende a ser clinicamente mais perigoso que superestimar. Esta versão:
-
-  1. Lê o bloco "diagnostics" (quando presente) de cada test_results.json;
-  2. Para grupos (task/subgroup) com diagnósticos disponíveis, desenha:
-       - matriz de confusão por modelo (contagens + normalizada por classe
-         verdadeira, ou seja, recall visual);
-       - heatmap de recall por classe x modelo (quais níveis cada modelo
-         realmente reconhece);
-       - heatmap de erro médio COM SINAL por classe verdadeira x modelo
-         (azul = tende a subestimar aquela classe, vermelho = tende a
-         superestimar) — é a resposta direta para "4 virar 3 é diferente de
-         4 virar 0";
-       - barras de QWK, MAE, within-1-rate e clinical_risk_score;
-       - barras de viés direcional (taxa de subestimação vs. superestimação);
-  3. Troca o critério de "score robusto" para QWK + within_1_rate quando o
-     grupo é ordinal (em vez de balanced_accuracy/mcc/f1, que ignoram
-     distância e direção do erro);
-  4. Detecta e avisa quando um modelo que aparece em outros grupos está
-     ausente do grupo atual (ex.: svm sumiu de severity/all — pode ter
-     falhado silenciosamente);
-  5. Trata grupos com um único modelo como o que são — não finge uma
-     "comparação" que não existe (pula gráficos de trade-off/ranking,
-     mostra só a tabela e um aviso);
-  6. Gera um veredito em texto por grupo, não só tabelas e gráficos.
-
-Onde colocar este arquivo
----------------------------
-    reporting/
-        __init__.py             <- crie vazio, se ainda não existir
-        compare_models.py       <- este arquivo
-
-No mesmo nível de models/, metrics/, pipeline/, persistence/, training/.
-Só lê arquivos em results/ — não precisa importar nada do resto do projeto,
-exceto se usar --rerun-missing (importa pipeline.run_model).
-
 Uso
 ---
     python -m reporting.compare_models
