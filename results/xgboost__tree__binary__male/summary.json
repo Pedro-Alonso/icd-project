@@ -1,0 +1,3953 @@
+{
+  "model": "xgboost",
+  "dataset": "tree",
+  "task": "binary",
+  "subgroup": "male",
+  "primary_metric": "roc_auc",
+  "n_combinations_evaluated": 72,
+  "total_runs": 1800,
+  "best_configuration": {
+    "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=0.8",
+    "hyperparameters": {
+      "n_estimators": 400,
+      "max_depth": 3,
+      "learning_rate": 0.01,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8
+    },
+    "n_runs": 25,
+    "metrics": {
+      "accuracy": {
+        "mean": 0.8065546713822576,
+        "std": 0.02732102707799012,
+        "n": 25
+      },
+      "balanced_accuracy": {
+        "mean": 0.7835339644928686,
+        "std": 0.03191490952232515,
+        "n": 25
+      },
+      "precision": {
+        "mean": 0.8322640190864532,
+        "std": 0.029116629716273892,
+        "n": 25
+      },
+      "recall": {
+        "mean": 0.8708774527952611,
+        "std": 0.03745692483955546,
+        "n": 25
+      },
+      "f1": {
+        "mean": 0.8503548526725282,
+        "std": 0.021562373267579198,
+        "n": 25
+      },
+      "f2": {
+        "mean": 0.8623534618477396,
+        "std": 0.02910599718760404,
+        "n": 25
+      },
+      "roc_auc": {
+        "mean": 0.8747030897460971,
+        "std": 0.02806609084559674,
+        "n": 25
+      },
+      "mcc": {
+        "mean": 0.5802766852166237,
+        "std": 0.059821523905200014,
+        "n": 25
+      }
+    },
+    "mean_execution_time_seconds": 0.34017550399992613
+  },
+  "ranking": [
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8065546713822576,
+          "std": 0.02732102707799012,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7835339644928686,
+          "std": 0.03191490952232515,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8322640190864532,
+          "std": 0.029116629716273892,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8708774527952611,
+          "std": 0.03745692483955546,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8503548526725282,
+          "std": 0.021562373267579198,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8623534618477396,
+          "std": 0.02910599718760404,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8747030897460971,
+          "std": 0.02806609084559674,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5802766852166237,
+          "std": 0.059821523905200014,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.34017550399992613
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7969260241674034,
+          "std": 0.02840432098014953,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7685253892676639,
+          "std": 0.03405817465112187,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8170152971639919,
+          "std": 0.029572152512411604,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.876319881525361,
+          "std": 0.034917385099913656,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8449647756682589,
+          "std": 0.021653286808645495,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8633242441841569,
+          "std": 0.02725799640503931,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8739509463497994,
+          "std": 0.02637279440526181,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5564039672537715,
+          "std": 0.06328967132117483,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.23492235600715503
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8024167403477749,
+          "std": 0.028380815160703645,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7806618688045894,
+          "std": 0.03192931981158537,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8319296588740032,
+          "std": 0.029082276750879897,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8632506479081822,
+          "std": 0.042360945884275594,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.846378060732851,
+          "std": 0.023271524867240673,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8561905025756309,
+          "std": 0.03294676152983114,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8735722178283504,
+          "std": 0.02686369590382678,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5726381154936697,
+          "std": 0.06080936532237362,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3578918120008893
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7989832007073386,
+          "std": 0.03105478915006431,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7720917358445233,
+          "std": 0.03589098373611068,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8207105706392227,
+          "std": 0.030138083044150537,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8741281007034432,
+          "std": 0.037245187886824224,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8459242159011233,
+          "std": 0.02400097957022079,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.862449674945868,
+          "std": 0.029853918832705616,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8724497263841003,
+          "std": 0.02591338909060773,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5616836058553999,
+          "std": 0.0686711600141127,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.22211305600125342
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8038196286472149,
+          "std": 0.03287669263388124,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7748829747236883,
+          "std": 0.03743439888954892,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8202738126285751,
+          "std": 0.030305985388633227,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8844946316179193,
+          "std": 0.03738279690175757,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8505906816441186,
+          "std": 0.025268093532468082,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.870458007236781,
+          "std": 0.03061670392102923,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8702421235234233,
+          "std": 0.029470212988742906,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5712278336135739,
+          "std": 0.07338814066808629,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2964237800030969
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.808623636899499,
+          "std": 0.034511431196234454,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7864752113876038,
+          "std": 0.038441794498843586,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8349289659303121,
+          "std": 0.03187098235709335,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8703369122547204,
+          "std": 0.03902859320600742,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8516550668887833,
+          "std": 0.027048736160488508,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8626120665985129,
+          "std": 0.032565958488147306,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8698155229821366,
+          "std": 0.02840781549996817,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.584865393991162,
+          "std": 0.07599217853741681,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.45348193200305104
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.807253168287651,
+          "std": 0.03110697000748372,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7865558016943808,
+          "std": 0.03701543497633712,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8371277405264936,
+          "std": 0.03317228192935565,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8649166975194372,
+          "std": 0.03590859872772957,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8500564352364353,
+          "std": 0.024019833415889053,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8587250261002852,
+          "std": 0.02897665404204289,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.869666113571816,
+          "std": 0.028035621631352474,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5826780486391634,
+          "std": 0.06880586282732955,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.19865851201117038
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8113793103448276,
+          "std": 0.030474196218766493,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7921371642429303,
+          "std": 0.03714676232477508,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8428414456515546,
+          "std": 0.03538789857033474,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8648944835246205,
+          "std": 0.037971157905906626,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8527880137971293,
+          "std": 0.023374079034170044,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8597764726627866,
+          "std": 0.029533381161191544,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8686378204536854,
+          "std": 0.029995978474563534,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5929440296573886,
+          "std": 0.06836385627437966,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.20801351600559428
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8007102858826997,
+          "std": 0.028288412566124587,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7787481278210809,
+          "std": 0.03185447086384693,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8304409796947142,
+          "std": 0.02918784865770695,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.862169566827101,
+          "std": 0.041256945818747115,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8451206828523161,
+          "std": 0.0228835919217594,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8550482492992748,
+          "std": 0.03215135930295711,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.868204272401469,
+          "std": 0.028618572198302415,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.568725301166782,
+          "std": 0.0614444961453439,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3232951720035635
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8082729148246389,
+          "std": 0.03132525824496845,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7863702012666651,
+          "std": 0.035501817746123765,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8353317069069971,
+          "std": 0.03080686054007112,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8692188078489448,
+          "std": 0.03854507277716942,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8512449909377294,
+          "std": 0.024670616245531816,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8617627459679085,
+          "std": 0.031124433561898188,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8674048617406375,
+          "std": 0.029475401197399737,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.584462276061547,
+          "std": 0.06903766612218953,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.47732893999433146
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8055113468906572,
+          "std": 0.03327707714389242,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7820610634755266,
+          "std": 0.038286323187776805,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8309565764329002,
+          "std": 0.03300460262976258,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8708552388004444,
+          "std": 0.038813650315557786,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8497156002847467,
+          "std": 0.025771338942051598,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8620876568718664,
+          "std": 0.031476947634208,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8671395238136239,
+          "std": 0.029240814830709994,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5776565368063884,
+          "std": 0.07405054522579374,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.5752319079986773
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7965900383141762,
+          "std": 0.03177712163179036,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7692034655143926,
+          "std": 0.037371083549572116,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.818840064180835,
+          "std": 0.03193277850546067,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8730470196223621,
+          "std": 0.042355201256145635,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8441589181017752,
+          "std": 0.024644179184569723,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8610118721402285,
+          "std": 0.03280524095321842,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8669561107550914,
+          "std": 0.02644291771424964,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5570224090895926,
+          "std": 0.07042018037149066,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.20334119600709527
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7983023872679046,
+          "std": 0.028004707836647772,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7770030500167486,
+          "std": 0.03084442191898404,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8300952310745703,
+          "std": 0.0280118608887205,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.857815623843021,
+          "std": 0.04331722407333844,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8428095510980795,
+          "std": 0.023423033562450617,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8515178518666331,
+          "std": 0.03367761128823138,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8669365043831434,
+          "std": 0.02849621473204082,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5642445047710491,
+          "std": 0.059306506687886694,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.32732916800305245
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8020925434718538,
+          "std": 0.032466093572018205,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7745094573479409,
+          "std": 0.03745234171861878,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.821550318076302,
+          "std": 0.031015721148680998,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8790299888930027,
+          "std": 0.03687542171599346,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8486913617629981,
+          "std": 0.02483343153204572,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8664731684393883,
+          "std": 0.030049532472691303,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8666346863861996,
+          "std": 0.028950549056165484,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5679733674801715,
+          "std": 0.07261291878951878,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3048600960010663
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8034571175950487,
+          "std": 0.028648383115515312,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.773234038662519,
+          "std": 0.0335436635417384,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8179779109721342,
+          "std": 0.027905531257485516,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8877526841910404,
+          "std": 0.03565266891923619,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8508241532370079,
+          "std": 0.021860025241308804,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8724369149049036,
+          "std": 0.0280102486638612,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8665392539492571,
+          "std": 0.029505893426318704,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5700965249109528,
+          "std": 0.06432666343083922,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.33356880000792444
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.80894783377542,
+          "std": 0.03606646505323557,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7876753821131011,
+          "std": 0.04225929591437269,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.837054869653754,
+          "std": 0.035635228364824446,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8681525360977416,
+          "std": 0.03463588044515567,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.851735683788167,
+          "std": 0.027224398737075366,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8613620857007702,
+          "std": 0.029699295327195698,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8665179747626387,
+          "std": 0.032073974926783926,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5854778896081638,
+          "std": 0.08080440077235217,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2684231279953383
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8089655172413793,
+          "std": 0.02820446237258427,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7901131691924939,
+          "std": 0.03179194458296998,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.841232387019946,
+          "std": 0.02832792857560773,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8616438356164383,
+          "std": 0.039602672078716775,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8505320906393863,
+          "std": 0.02284048307350603,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8569655514446444,
+          "std": 0.031134697484902156,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8664309022990132,
+          "std": 0.029907658180069192,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5880981368191555,
+          "std": 0.06044506055057761,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.19778639199910686
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7941791924550546,
+          "std": 0.03368905251074741,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7676864891105094,
+          "std": 0.0402498230288629,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8189996181289252,
+          "std": 0.03434148705498924,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8681747500925583,
+          "std": 0.04208359482886764,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8419151148368735,
+          "std": 0.026041882183273826,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8572251299560167,
+          "std": 0.033151171310777224,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8654013361197178,
+          "std": 0.026726423361896897,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5518818995887651,
+          "std": 0.07428955415010344,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.21867560000158848
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.803454170350722,
+          "std": 0.03183256587316625,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.780615809000645,
+          "std": 0.03653379631614121,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8306759124858658,
+          "std": 0.03159095839887631,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8670566456867828,
+          "std": 0.0377840643653726,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8477999119779436,
+          "std": 0.02477778576822602,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8590745792137069,
+          "std": 0.030535939863120202,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8650424784225358,
+          "std": 0.029492987197707644,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5735276450101205,
+          "std": 0.07073058303580512,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.6122226880001835
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8058738579428234,
+          "std": 0.027918818800450464,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7872466823534043,
+          "std": 0.03325927057992786,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8399232255971399,
+          "std": 0.030620506335866108,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.857815623843021,
+          "std": 0.03523258785109126,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8480434623369943,
+          "std": 0.021717703344084727,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.853695626546486,
+          "std": 0.027722145756800622,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8643221800055187,
+          "std": 0.03027374258029275,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5812427003762498,
+          "std": 0.06168296199384521,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.201890347993467
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7996846448570587,
+          "std": 0.03201996647613424,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7698233417507072,
+          "std": 0.03873733623775435,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8166692246188066,
+          "std": 0.0323676829193211,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8828582006664198,
+          "std": 0.03612850529355117,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8477678940267669,
+          "std": 0.023864465177974872,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8682876780660164,
+          "std": 0.02868071908963796,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8632720623959872,
+          "std": 0.030223531730427203,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5617649437031256,
+          "std": 0.07233095689975116,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.33465309200342747
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8086206896551724,
+          "std": 0.029765190644397185,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7893756547244919,
+          "std": 0.03476807604727691,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8407929127221111,
+          "std": 0.03225683219984725,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8621621621621621,
+          "std": 0.039980425347151634,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.85044745173941,
+          "std": 0.02313633090659852,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8572133562406961,
+          "std": 0.031076048872817966,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8627079671488719,
+          "std": 0.029130239507639596,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5872803349449692,
+          "std": 0.06708444540586109,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3276493480033241
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8096433834364869,
+          "std": 0.033043092036073925,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.789156831705414,
+          "std": 0.037856473614123975,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8389847154800232,
+          "std": 0.033147169477868846,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8664642724916698,
+          "std": 0.03864975784288608,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8517948825434186,
+          "std": 0.02571036727053776,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8603553666941499,
+          "std": 0.031397230086268026,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8626745518558198,
+          "std": 0.02954023943645009,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5882934357219383,
+          "std": 0.07378509003724056,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2645449639996514
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8037842617152963,
+          "std": 0.036293698305749175,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7814262877085432,
+          "std": 0.04124143906169389,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8318412720978628,
+          "std": 0.03441982756084775,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.865953350610885,
+          "std": 0.04040669141413331,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8478603063972749,
+          "std": 0.028081789062708726,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8584439135170092,
+          "std": 0.033449610183878604,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.862332481755865,
+          "std": 0.032221566454031327,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5745649674818316,
+          "std": 0.08089712275737894,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3021756439935416
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8117005599764221,
+          "std": 0.03327960901924033,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7923742447221263,
+          "std": 0.038544564390863546,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8425089044695693,
+          "std": 0.03336352722755659,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8654572380599778,
+          "std": 0.03994269410645706,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8530251260405156,
+          "std": 0.025870035041016978,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8602386683653926,
+          "std": 0.03227642332202757,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8616955083696084,
+          "std": 0.030254261011578888,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5933722258318744,
+          "std": 0.07373605571181216,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3255365759972483
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8082699675803124,
+          "std": 0.030981473014295498,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7886639909832008,
+          "std": 0.03619960585708397,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8396661213790346,
+          "std": 0.031290844980843655,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8626878933728248,
+          "std": 0.03561163808563821,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8503775935016818,
+          "std": 0.02370627670442297,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8575593361537902,
+          "std": 0.02891746977164027,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8609544514705394,
+          "std": 0.03042148166498882,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5854634953307675,
+          "std": 0.06984020785525456,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.21402318800101056
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8000235779546123,
+          "std": 0.034672033631549415,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7712072514875956,
+          "std": 0.04021244655871297,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8187016419964813,
+          "std": 0.033700151639401654,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8801110699740836,
+          "std": 0.041881804725416645,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8474826621673407,
+          "std": 0.02682534545558111,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8665451483347526,
+          "std": 0.03346937561504707,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8609052633391595,
+          "std": 0.030269451999413825,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5636333616910144,
+          "std": 0.07731622633938318,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2714248879975639
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8075773651635721,
+          "std": 0.028372550933578745,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7877596091517722,
+          "std": 0.032066275042392796,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8386150651357167,
+          "std": 0.02857342109962672,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8626952980377638,
+          "std": 0.037609849498855916,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8498041253541879,
+          "std": 0.022697721296825932,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8573204593411602,
+          "std": 0.029890092373048557,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8604155960447774,
+          "std": 0.03214434854363202,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5842634446027218,
+          "std": 0.062453509848130515,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.31094126800308003
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8010433244916004,
+          "std": 0.035667071075432134,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7788818053934332,
+          "std": 0.03879434553097711,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8304140474980878,
+          "std": 0.03250740512343044,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8627027027027028,
+          "std": 0.04645619509967085,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8453662689857662,
+          "std": 0.028872390378486715,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8554626939777507,
+          "std": 0.03771751969248938,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8602117217567998,
+          "std": 0.030703666498418467,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.569560488690823,
+          "std": 0.07763471407301419,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.46096776799997313
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8065546713822576,
+          "std": 0.03853664289900342,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7870845382314003,
+          "std": 0.04399809172388906,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.839235019445806,
+          "std": 0.03828818459602099,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.860503517215846,
+          "std": 0.04351584564011317,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8488742988101131,
+          "std": 0.03007966170319117,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8555954572235375,
+          "std": 0.03589017705636047,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8583771934679867,
+          "std": 0.031092320677584027,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5827256818094022,
+          "std": 0.08601800242426612,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.45017776800552384
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8017300324196875,
+          "std": 0.03766061016260508,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7813449552952579,
+          "std": 0.04339384827900066,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8342405679478861,
+          "std": 0.03623653582080842,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8583709737134394,
+          "std": 0.039799296377031695,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.845428211472793,
+          "std": 0.02899286356633754,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8529683871382199,
+          "std": 0.03351475804484213,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8583738150383579,
+          "std": 0.03137423169839443,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5710948405142835,
+          "std": 0.08383281638834365,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.44403146400349214
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8082552313586797,
+          "std": 0.033307439643506784,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7871052557130926,
+          "std": 0.03771152067517576,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8368013882007866,
+          "std": 0.03181736730207395,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8670344316919659,
+          "std": 0.04095655055258239,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8509024448087917,
+          "std": 0.026220602148437678,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8603171043249991,
+          "std": 0.03314904121639243,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8582955781522204,
+          "std": 0.03237180342856338,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5850441859858216,
+          "std": 0.07369723821261868,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.28216963600600137
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=3,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8086089006778662,
+          "std": 0.034536359830447165,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.789526171144521,
+          "std": 0.03979376956296423,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8413280304690841,
+          "std": 0.03580537565041666,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8615994076268049,
+          "std": 0.044345717975072106,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8503286090057458,
+          "std": 0.027280300794633585,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8568004479526398,
+          "std": 0.03526275061659636,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8581849386819123,
+          "std": 0.03129213973252302,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.587628877852262,
+          "std": 0.07639998151171654,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.19961406399961562
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8024049513704686,
+          "std": 0.030996424296871487,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.781469920291201,
+          "std": 0.037809511389126874,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8339240032677598,
+          "std": 0.03465733943854253,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8605035172158461,
+          "std": 0.03464892993236065,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.84625148034785,
+          "std": 0.023432256824651464,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8545556297024798,
+          "std": 0.027670934518698325,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8573445297115256,
+          "std": 0.03130203851969396,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5721552794939359,
+          "std": 0.0703654706443919,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.5081372320000083
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=5,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.801721190686708,
+          "std": 0.03255600230303248,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7803780643156241,
+          "std": 0.03693266231430704,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8323209909149498,
+          "std": 0.03198622526648133,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8610440577563865,
+          "std": 0.03955896349670558,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8457201150350611,
+          "std": 0.025662004255820593,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8546669736232001,
+          "std": 0.032120142606034734,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8571536197372451,
+          "std": 0.02946336072784133,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5707923374870749,
+          "std": 0.07203698030291639,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2570768839935772
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7962304745063364,
+          "std": 0.03307556077229926,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.774094205706184,
+          "std": 0.03661801014949206,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8274215111605617,
+          "std": 0.031196233226846875,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8578008145131433,
+          "std": 0.043692627040136205,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8415119528188538,
+          "std": 0.026724882331968323,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8509995734616667,
+          "std": 0.03507440994864169,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8571178510235535,
+          "std": 0.029811391557677605,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5591189598181325,
+          "std": 0.07230750088960528,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4918579479889013
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7948452696728558,
+          "std": 0.03484092132498056,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7706565264577371,
+          "std": 0.03890040406880578,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.823086474801943,
+          "std": 0.03283483044724159,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8621325435024064,
+          "std": 0.044351819191269244,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8412971969291013,
+          "std": 0.02770270149814489,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8534575183345932,
+          "std": 0.03578000713942847,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8570443619790545,
+          "std": 0.030504446845043897,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5548162476282466,
+          "std": 0.077047937130983,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.5872438039979897
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8000206307102858,
+          "std": 0.030786399323656878,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7788429411525939,
+          "std": 0.0336745542268434,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8314882792264864,
+          "std": 0.029599822271527604,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8588818955942243,
+          "std": 0.04321964457800551,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.84413747557145,
+          "std": 0.02488940134708863,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8527123401273752,
+          "std": 0.034094499967588995,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8568234725418542,
+          "std": 0.029268434698917427,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5679792550656908,
+          "std": 0.06819204539945617,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.25469261199468746
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7996581196581196,
+          "std": 0.030059302200576586,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7781571281380137,
+          "std": 0.034944857438252014,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8308045018273922,
+          "std": 0.030894956350914087,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.859415031469826,
+          "std": 0.03770698226490086,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.844151078145051,
+          "std": 0.02345695449946675,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8530583786671891,
+          "std": 0.02989295931595013,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8563477740699785,
+          "std": 0.030919488826668885,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5663320134499905,
+          "std": 0.06719857282397677,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.5403864040016196
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7969171824344238,
+          "std": 0.03667038968040898,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7759949331755639,
+          "std": 0.04035112610864559,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8302337339294276,
+          "std": 0.03478580977505396,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8550684931506849,
+          "std": 0.04741370998109812,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8414985600063001,
+          "std": 0.029572831528323608,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8493472774422797,
+          "std": 0.03839678807883217,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8561954085337328,
+          "std": 0.03276512097401536,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5617009053546248,
+          "std": 0.08057619290295065,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3068106920015998
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.804851164161509,
+          "std": 0.02823350140946147,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7846195146131432,
+          "std": 0.032598799859390154,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.836399692702785,
+          "std": 0.0293790861013024,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8610662717512032,
+          "std": 0.03927559228351792,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8477461495946221,
+          "std": 0.022480793690195764,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8554843655988159,
+          "std": 0.0306568003984157,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8561307673668298,
+          "std": 0.029877557437421445,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5784166776976697,
+          "std": 0.062270139608035936,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.311558007998392
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=7,n_estimators=200,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.802077807250221,
+          "std": 0.0376729538997548,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7816114576324834,
+          "std": 0.04200677501159429,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8341990427427639,
+          "std": 0.0355869436894456,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8588596815994076,
+          "std": 0.04289880602237309,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8456160546071559,
+          "std": 0.02982984438969051,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8533268948255324,
+          "std": 0.03578396871490202,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8557622069345548,
+          "std": 0.03268282766206519,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5723226701097978,
+          "std": 0.08311660361209929,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.30621707999845965
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.01,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7889979369289714,
+          "std": 0.03675067444552745,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7577899371177484,
+          "std": 0.04273875654798598,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8080601890870873,
+          "std": 0.034031882484188265,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8757349129951869,
+          "std": 0.04174601156059106,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.839761158345505,
+          "std": 0.027965461448851137,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8607765692636279,
+          "std": 0.03405247479593175,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8554555652453072,
+          "std": 0.032524808206980095,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5378166541653249,
+          "std": 0.08293114435530953,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.35200766399968414
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8055260831122899,
+          "std": 0.026757708077507075,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.785549714370995,
+          "std": 0.03076000773844361,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8373062829948408,
+          "std": 0.028227350939428266,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8610440577563865,
+          "std": 0.040290798057711116,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.848144159145211,
+          "std": 0.021357375564649173,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8556173001833441,
+          "std": 0.030836283591994182,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8553027446050702,
+          "std": 0.03224183228014144,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5802994232910442,
+          "std": 0.0597187848070726,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3235710319899954
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8096522251694666,
+          "std": 0.026266801457770963,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7907783754263525,
+          "std": 0.030808690639162545,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8418273957899913,
+          "std": 0.02872866108265709,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8621547574972233,
+          "std": 0.03616680015492227,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8511396313009392,
+          "std": 0.020834550884369422,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8575301526699904,
+          "std": 0.028076371464163176,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.855065799427061,
+          "std": 0.030466520342711266,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.589298826156601,
+          "std": 0.05785690626875822,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.19674145199824125
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7948305334512231,
+          "std": 0.03277248279785142,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7731709801094955,
+          "std": 0.03665770875920509,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8277569164436253,
+          "std": 0.032900463001931196,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8550462791558683,
+          "std": 0.047234957188374865,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8401083345267447,
+          "std": 0.02653583181543456,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8487352978858955,
+          "std": 0.03686910058027458,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8549830935017301,
+          "std": 0.030420172570470805,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.557172069539015,
+          "std": 0.07250456904753827,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3057270480017178
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7979457707043913,
+          "std": 0.03161029472592629,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7779858942362924,
+          "std": 0.03674531397706015,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8327313790063089,
+          "std": 0.0333200695516103,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8534468715290633,
+          "std": 0.04107766555741275,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.842066029478516,
+          "std": 0.024634611209574327,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8486313258861707,
+          "std": 0.03226712477868923,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8544583996001646,
+          "std": 0.029399268604843078,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5641946015635095,
+          "std": 0.07144608729370662,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2742347400006838
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8041408782788093,
+          "std": 0.03344076329791532,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7836781750575952,
+          "std": 0.03846899435734263,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8353705826688582,
+          "std": 0.03326154330800063,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8610440577563865,
+          "std": 0.03604337621919721,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.847408858375836,
+          "std": 0.025822282977061673,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8553859191133826,
+          "std": 0.030065716194318175,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8542924998452237,
+          "std": 0.03072973501316769,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5760544090179756,
+          "std": 0.074780065447019,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3208704880066216
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7986265841438255,
+          "std": 0.03400075538359917,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7761514233479828,
+          "std": 0.04179379010277381,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8291845173628775,
+          "std": 0.038504744001845836,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8610514624213255,
+          "std": 0.03779463136605783,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8438879814758828,
+          "std": 0.025370969126859134,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8538658698830848,
+          "std": 0.02985954913485869,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8541096874419588,
+          "std": 0.032300162496083036,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.56350616899296,
+          "std": 0.07789991534799053,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.47263836399419235
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=7,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7962334217506631,
+          "std": 0.03405335245706925,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7748550780790348,
+          "std": 0.03990005631779054,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8290083955437925,
+          "std": 0.03523253730226445,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8556016290262867,
+          "std": 0.036424196373930864,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8414115060742725,
+          "std": 0.026118727375902543,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8496981235749373,
+          "std": 0.030187038743163367,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8537411557099355,
+          "std": 0.030582499101578738,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5586423023285749,
+          "std": 0.076602908441308,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.46016134400386366
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=3,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8034718538166814,
+          "std": 0.03094547962338328,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7821486935440425,
+          "std": 0.03623346881499872,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8336576691789582,
+          "std": 0.03180624976840914,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8627027027027028,
+          "std": 0.038503606920710386,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8471533936854702,
+          "std": 0.02399059020451952,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8562176404338421,
+          "std": 0.030615498308064572,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.853740540704542,
+          "std": 0.03172084677587387,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5745385447686435,
+          "std": 0.06934016126450691,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2102272760006599
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7969053934571175,
+          "std": 0.03364814133296754,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7761639284576526,
+          "std": 0.038204079183823535,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8302061817077306,
+          "std": 0.03220044999239211,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8545205479452055,
+          "std": 0.036926393660023434,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8416148395847362,
+          "std": 0.026314077866611642,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8491672351743543,
+          "std": 0.030990110192390338,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8537256370738371,
+          "std": 0.02779156510196602,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5604529405757649,
+          "std": 0.0745641861421457,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4318962680036202
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7938284703801944,
+          "std": 0.028762656135977893,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7693018376771164,
+          "std": 0.033967743921122666,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8221900285817247,
+          "std": 0.030846429060987477,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.862169566827101,
+          "std": 0.04399408875580128,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8406273206499452,
+          "std": 0.02301590990786519,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8531483614990079,
+          "std": 0.03349623541162369,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.853357382094241,
+          "std": 0.029130801938558933,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5527986944748126,
+          "std": 0.06362253423613148,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.28087383999954907
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.794851164161509,
+          "std": 0.036903997949850734,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7749281981202976,
+          "std": 0.04075642742825679,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8304406503074471,
+          "std": 0.034052766003025085,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.850122176971492,
+          "std": 0.04269082752299213,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8394657247501496,
+          "std": 0.029216983898348398,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8456495485594674,
+          "std": 0.03552312138473694,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8525536991959419,
+          "std": 0.03167196411723192,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5573581194977043,
+          "std": 0.08182071464784146,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.30655800400301814
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.797597995873858,
+          "std": 0.032376012163421584,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7782927245271941,
+          "std": 0.036639168189393015,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8332124723425726,
+          "std": 0.03134639485376383,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8512476860422066,
+          "std": 0.03656607984019085,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8415432646361558,
+          "std": 0.025020813654421083,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8471927324194908,
+          "std": 0.030238742959109388,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8524549129295863,
+          "std": 0.03161867819949656,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5630719295470256,
+          "std": 0.07296217096954978,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.44351001200499013
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7996669613910993,
+          "std": 0.031466832888793615,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.780465661583852,
+          "std": 0.03751281713560421,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8352448930223276,
+          "std": 0.0339759927785199,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8528693076638283,
+          "std": 0.03540092016151237,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8432422587480933,
+          "std": 0.02367016566224879,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8488142908195391,
+          "std": 0.028490624495300175,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8524243758617763,
+          "std": 0.029589265602389555,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5675954836419779,
+          "std": 0.07258723471693264,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2621327120042406
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=5,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7972561155319776,
+          "std": 0.03682094898329069,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7768497414722327,
+          "std": 0.04168791955316254,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8313959957434868,
+          "std": 0.03617351283046539,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8539874120696038,
+          "std": 0.04310524048174531,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8417055612768766,
+          "std": 0.028888477163510125,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8488211204204984,
+          "std": 0.03532065777758086,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8522766597663062,
+          "std": 0.03066679233777837,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5622553813686337,
+          "std": 0.08195271879944264,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4308818080066703
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.05,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.794155614500442,
+          "std": 0.03404252524035262,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7728548386369348,
+          "std": 0.038289003087674515,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8274965081569318,
+          "std": 0.031877774740578846,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8534394668641244,
+          "std": 0.03999202980166289,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8395811265655371,
+          "std": 0.026489044040552696,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8476669251778647,
+          "std": 0.032776981445992684,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8520002435421358,
+          "std": 0.030390076706363216,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5546915404489219,
+          "std": 0.07631660624653502,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.5614865319966339
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=3,n_estimators=400,subsample=0.8",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 0.8,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8041290893015031,
+          "std": 0.03263962238795062,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7850236182571321,
+          "std": 0.0385691912487186,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8379380218605847,
+          "std": 0.03409775918295871,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8572454646427249,
+          "std": 0.032271415746390114,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8469227173731791,
+          "std": 0.02482586299350252,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8529469683536981,
+          "std": 0.0272890145885,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8519161026042198,
+          "std": 0.03046996638467123,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5766132350712969,
+          "std": 0.07320424301588191,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.32215070399921386
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=5,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8006808134394342,
+          "std": 0.029941831587251368,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.781298653589192,
+          "std": 0.03430405299680842,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8351966683460468,
+          "std": 0.03014190704709768,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8545131432802665,
+          "std": 0.037548183426675166,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8440547614971773,
+          "std": 0.023199050078934396,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8501257646623576,
+          "std": 0.029938272378301323,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8511752671070926,
+          "std": 0.030425455288048516,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5698813602853945,
+          "std": 0.06803771369870397,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.2719232640066184
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7893457117595049,
+          "std": 0.03484238051576969,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7688651018469431,
+          "std": 0.039161948383903265,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8261241285239224,
+          "std": 0.03392439458131992,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8463902258422806,
+          "std": 0.044163100253136744,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8352461450109394,
+          "std": 0.02767079283185274,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8416729678279126,
+          "std": 0.03556667914897224,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8508460547198999,
+          "std": 0.0315788479909862,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5456617663228844,
+          "std": 0.07733761863203255,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.34860704799648373
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7927792513999411,
+          "std": 0.0332723717814011,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7725014073373424,
+          "std": 0.038881118568813135,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8290942909428982,
+          "std": 0.036080372255738256,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8490781192151056,
+          "std": 0.041607942281771206,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8380226104289844,
+          "std": 0.02555179825864069,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8443864348678339,
+          "std": 0.03278071739515203,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8502520989109074,
+          "std": 0.03134911375458084,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5530890259877378,
+          "std": 0.07688584544864079,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4564239119947888
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7938196286472149,
+          "std": 0.036718149259843146,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7736945055008132,
+          "std": 0.04231608003968684,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8300385694734054,
+          "std": 0.03765824071979296,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8496038504257681,
+          "std": 0.04233383910880933,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8387972174477143,
+          "std": 0.02819475927199863,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8450282668978606,
+          "std": 0.03453747848583058,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8502408156119529,
+          "std": 0.03159143582884426,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5550934881147643,
+          "std": 0.0836746721464464,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4832940800022334
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7893516062481579,
+          "std": 0.03877295616660946,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7676553985378451,
+          "std": 0.04310369864895408,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8241809204282845,
+          "std": 0.03604131419800803,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8496186597556461,
+          "std": 0.04886231400835571,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.835690696425981,
+          "std": 0.031058258135414907,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8437344855102177,
+          "std": 0.039734639440457534,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8496033789216333,
+          "std": 0.032788941729263964,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5450982688490125,
+          "std": 0.08510705360108545,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.6193248920002952
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7917595048629531,
+          "std": 0.03412606862415959,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7707643984037741,
+          "std": 0.03913108015965786,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8267780186930923,
+          "std": 0.03370877057665481,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8501888189559422,
+          "std": 0.04105001992878593,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8375130993712335,
+          "std": 0.026395956834521152,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8448690470949549,
+          "std": 0.03313069600795186,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8488603909056281,
+          "std": 0.033758842090365934,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5500035740216295,
+          "std": 0.07711540508908292,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3005169600015506
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.05,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.05,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7886413203654583,
+          "std": 0.033125735343773215,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7678831022348066,
+          "std": 0.03942250581885115,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8254527419432537,
+          "std": 0.03516659854567277,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8463309885227693,
+          "std": 0.03835792688203847,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.834933588473602,
+          "std": 0.02537620879278183,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.841529053899355,
+          "std": 0.03090379700405922,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8487902146901828,
+          "std": 0.03256092470854671,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5432445633446654,
+          "std": 0.07488900943054365,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.536521156001836
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7900088417329796,
+          "std": 0.034411220035648636,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7693280574070634,
+          "std": 0.04014969188386991,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8264082645277459,
+          "std": 0.03558609108727079,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8474268789337281,
+          "std": 0.03948526730287447,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8359938874514729,
+          "std": 0.02656671480113589,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8426173732598882,
+          "std": 0.032079151826529935,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8482634830707465,
+          "std": 0.031933411201079315,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5463969929708928,
+          "std": 0.07775211675913474,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.4452758319932036
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=5,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7934718538166814,
+          "std": 0.03897301325683988,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7720788248312939,
+          "std": 0.045151331483646036,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8274278523526258,
+          "std": 0.03857878429642526,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.852884116993706,
+          "std": 0.04056579036141172,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8391765155945495,
+          "std": 0.029471398015126535,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8471542972552184,
+          "std": 0.03400148902482477,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8481526713989281,
+          "std": 0.031145730507031007,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5529923990889907,
+          "std": 0.08895503706178659,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.41894358000252396
+    },
+    {
+      "combo_id": "colsample_bytree=0.8,learning_rate=0.1,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 0.8
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8010462717359269,
+          "std": 0.029372310003641884,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7821719079476327,
+          "std": 0.0340266219014038,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8364972334087029,
+          "std": 0.030533351286965348,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8534246575342466,
+          "std": 0.03823909064018719,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8441196670593821,
+          "std": 0.02290147067467243,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8494858832684077,
+          "std": 0.030076599068023457,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8475440005608849,
+          "std": 0.03200719809610448,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5711729844683572,
+          "std": 0.06634675293869187,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.3119564600009471
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=7,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 7,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7893368700265252,
+          "std": 0.036658846431779066,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7684421216374068,
+          "std": 0.04258893761266988,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8254922990338186,
+          "std": 0.036628084795356765,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8474268789337281,
+          "std": 0.03837499305570098,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8355989764796601,
+          "std": 0.02789986354208926,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8424766320376885,
+          "std": 0.032080901952047124,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8461811896090329,
+          "std": 0.03306193762146177,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5444431763117812,
+          "std": 0.08305284791390569,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.48095359599683435
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.1,max_depth=3,n_estimators=400,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 3,
+        "learning_rate": 0.1,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7976186265841438,
+          "std": 0.031275071137722495,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7763776182317119,
+          "std": 0.03704791845712154,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8301301830541722,
+          "std": 0.03347054871918942,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8567419474268789,
+          "std": 0.037233550500847826,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8424628884589604,
+          "std": 0.024056368484493114,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8507778065657723,
+          "std": 0.029635194588510105,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8444005890931663,
+          "std": 0.03316162055593692,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5620599917199666,
+          "std": 0.0705301638382043,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.32256144799757747
+    },
+    {
+      "combo_id": "colsample_bytree=1.0,learning_rate=0.01,max_depth=7,n_estimators=200,subsample=1.0",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 7,
+        "learning_rate": 0.01,
+        "subsample": 1.0,
+        "colsample_bytree": 1.0
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.7817801355732391,
+          "std": 0.03312590342673055,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7539157106407823,
+          "std": 0.03856489656678289,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.808901963237883,
+          "std": 0.03227365992696718,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.859415031469826,
+          "std": 0.04206081335429298,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8325111357541094,
+          "std": 0.025631023595818467,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.848221159196016,
+          "std": 0.033385580122957996,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.843200615169395,
+          "std": 0.03414725250527691,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5240176906875583,
+          "std": 0.07481063398844663,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.35947013199562206
+    }
+  ]
+}

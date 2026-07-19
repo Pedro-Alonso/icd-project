@@ -1,0 +1,26 @@
+{
+  "model": "svm",
+  "dataset": "linear",
+  "task": "binary",
+  "subgroup": "male",
+  "best_hyperparameters": {
+    "C": 1.0,
+    "kernel": "rbf",
+    "gamma": "scale",
+    "class_weight": "balanced"
+  },
+  "n_train_total": 581,
+  "n_test": 145,
+  "metrics": {
+    "accuracy": 0.8137931034482758,
+    "balanced_accuracy": 0.7972723543888434,
+    "precision": 0.8494623655913979,
+    "recall": 0.8586956521739131,
+    "f1": 0.8540540540540541,
+    "f2": 0.8568329718004338,
+    "roc_auc": 0.8570549630844955,
+    "mcc": 0.596998473677882
+  },
+  "diagnostics": null,
+  "timestamp": "2026-07-19T08:12:00.530235+00:00"
+}

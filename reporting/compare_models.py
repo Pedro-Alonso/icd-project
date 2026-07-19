@@ -344,7 +344,7 @@ def build_verdicts(
 
         if group in missing_by_group:
             msgs.append(
-                f"⚠️ Modelo(s) ausente(s) neste grupo, mas presentes em outros: "
+                f"[ATENÇÃO] Modelo(s) ausente(s) neste grupo, mas presentes em outros: "
                 f"{', '.join(missing_by_group[group])}. Verifique se o experimento rodou ou falhou."
             )
 
@@ -381,7 +381,7 @@ def build_verdicts(
             worst_bias = diag_sub.loc[diag_sub["underestimate_rate"].idxmax()]
             if worst_bias["underestimate_rate"] > 0.25:
                 msgs.append(
-                    f"⚠️ '{worst_bias['model']}' subestima a severidade real em "
+                    f"[ATENÇÃO] '{worst_bias['model']}' subestima a severidade real em "
                     f"{worst_bias['underestimate_rate']*100:.1f}% dos casos de teste "
                     f"(mean_signed_error={worst_bias['mean_signed_error']:.2f}) — isso é "
                     f"potencialmente mais perigoso clinicamente do que superestimar. "
@@ -402,7 +402,7 @@ def build_verdicts(
         small_n = sub[sub["n_test"].fillna(0) < 50]
         if not small_n.empty:
             msgs.append(
-                f"⚠️ n_test pequeno neste grupo ({sorted(small_n['n_test'].unique())}) — "
+                f"[ATENÇÃO] n_test pequeno neste grupo ({sorted(small_n['n_test'].unique())}) — "
                 f"estimativas de métrica têm margem de erro grande; use com cautela."
             )
 
@@ -851,6 +851,17 @@ def build_arg_parser() -> argparse.ArgumentParser:
 
 
 def main(argv: Optional[List[str]] = None) -> None:
+    # Consoles do Windows (cp1252/cp850) derrubam print() com qualquer
+    # caractere fora da tabela deles (emoji, alguns símbolos). Isso reconfigura
+    # a saída padrão pra UTF-8 quando possível; se o Python for antigo demais
+    # pra suportar reconfigure(), ignora silenciosamente (só volta ao
+    # comportamento padrão de antes).
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, ValueError):
+            pass
+
     parser = build_arg_parser()
     args = parser.parse_args(argv)
 
