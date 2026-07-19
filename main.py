@@ -61,12 +61,7 @@ def main():
         run_model(model_name=args.model, dataset=args.dataset, task=args.task, subgroup=args.subgroup)
     else:
         parser.error("Forneca --experiment <arquivo.yaml> ou --model + --dataset.")
-
-def main2():
-    from pipeline.run_model import run_model
-        for m in ["logistic", "random_forest", "svm", "xgboost", "lightgbm", "catboost"]:
-            run_model(model_name=m, dataset=<dataset esperado do modelo>, task="severity", subgroup="all")
-            
+    
 
 if __name__ == "__main__":
     main()
