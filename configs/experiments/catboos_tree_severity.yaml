@@ -1,0 +1,4 @@
+model_name: catboost
+dataset: tree
+task: severity
+subgroup: all

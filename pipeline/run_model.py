@@ -16,6 +16,7 @@ from typing import Any, Dict, Optional
 
 from datasets.loader import load_dataset
 from metrics.registry import available_metrics
+from metrics.ordinal_diagnostics import compute_ordinal_diagnostics
 from models.registry import get_model_plugin
 from persistence.checkpoint import get_completed_keys, is_done
 from persistence.run_writer import next_run_path, write_run_atomic, write_test_results
@@ -32,6 +33,10 @@ from evaluation.test_evaluator import evaluate_on_test
 logger = get_logger("pipeline.run_model")
 
 DEFAULT_METRICS = ["accuracy", "balanced_accuracy", "precision", "recall", "f1", "f2", "roc_auc", "mcc"]
+
+# ajuste esta lista às tarefas que são, de fato, ordinais no seu domínio
+# (classes com uma ordem natural crescente, ex.: níveis de severidade 0-4)
+ORDINAL_TASKS = {"severity"}
 
 
 def run_model(
@@ -135,6 +140,25 @@ def run_model(
             plugin, final_estimator, data.X_test, data.y_test, y_train_reference=y_train, metric_names=metric_names
         )
 
+        # ------------------------------------------------------------------
+        # Diagnostico ordinal (matriz de confusao, QWK, MAE, viés direcional)
+        # Só é calculado para tarefas em ORDINAL_TASKS (ex.: "severity"),
+        # onde as classes têm uma ordem natural e a DISTÂNCIA/DIREÇÃO do erro
+        # importa (confundir nível 4 com 3 != confundir nível 4 com 0).
+        # Ver metrics/ordinal_diagnostics.py para detalhes de cada campo.
+        # ------------------------------------------------------------------
+        diagnostics = None
+        if task in ORDINAL_TASKS:
+            y_pred_test = plugin.predict(final_estimator, data.X_test)
+            n_classes = int(
+                len(set(y_train.unique().tolist()) | set(data.y_test.unique().tolist()))
+            )
+            diagnostics = compute_ordinal_diagnostics(
+                y_true=data.y_test.to_numpy(),
+                y_pred=y_pred_test,
+                n_classes=n_classes,
+            )
+
         test_payload = {
             "model": model_name,
             "dataset": dataset,
@@ -144,6 +168,7 @@ def run_model(
             "n_train_total": len(X_train),
             "n_test": len(data.X_test),
             "metrics": test_metrics,
+            "diagnostics": diagnostics,
             "timestamp": dt.datetime.now(dt.timezone.utc).isoformat(),
         }
         write_test_results(model_name, dataset, task, subgroup, test_payload)

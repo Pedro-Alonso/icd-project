@@ -1,0 +1,2926 @@
+{
+  "model": "random_forest",
+  "dataset": "tree",
+  "task": "binary",
+  "subgroup": "male",
+  "primary_metric": "roc_auc",
+  "n_combinations_evaluated": 54,
+  "total_runs": 1350,
+  "best_configuration": {
+    "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=200",
+    "hyperparameters": {
+      "n_estimators": 200,
+      "max_depth": 5,
+      "min_samples_leaf": 2,
+      "class_weight": null
+    },
+    "n_runs": 25,
+    "metrics": {
+      "accuracy": {
+        "mean": 0.8172295903330387,
+        "std": 0.03099176365659013,
+        "n": 25
+      },
+      "balanced_accuracy": {
+        "mean": 0.7925892752079435,
+        "std": 0.0354375559333939,
+        "n": 25
+      },
+      "precision": {
+        "mean": 0.8356537102826914,
+        "std": 0.030756211857046425,
+        "n": 25
+      },
+      "recall": {
+        "mean": 0.8860866345797852,
+        "std": 0.03371765545492197,
+        "n": 25
+      },
+      "f1": {
+        "mean": 0.8596085644341366,
+        "std": 0.023939779606858565,
+        "n": 25
+      },
+      "f2": {
+        "mean": 0.8751652744040321,
+        "std": 0.027846703061487385,
+        "n": 25
+      },
+      "roc_auc": {
+        "mean": 0.8767900162484424,
+        "std": 0.02612612731559895,
+        "n": 25
+      },
+      "mcc": {
+        "mean": 0.6021352919532329,
+        "std": 0.06864125542858622,
+        "n": 25
+      }
+    },
+    "mean_execution_time_seconds": 0.857923688001465
+  },
+  "ranking": [
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8172295903330387,
+          "std": 0.03099176365659013,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7925892752079435,
+          "std": 0.0354375559333939,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8356537102826914,
+          "std": 0.030756211857046425,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8860866345797852,
+          "std": 0.03371765545492197,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8596085644341366,
+          "std": 0.023939779606858565,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8751652744040321,
+          "std": 0.027846703061487385,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8767900162484424,
+          "std": 0.02612612731559895,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.6021352919532329,
+          "std": 0.06864125542858622,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.857923688001465
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8055025051576776,
+          "std": 0.026492353833643005,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7965234729108575,
+          "std": 0.026556421455361943,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8582926015760727,
+          "std": 0.026833234538238205,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8305220288781932,
+          "std": 0.04453621644553788,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8431948037155373,
+          "std": 0.023860690930663602,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8353252508754054,
+          "std": 0.035436655521321345,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8763318126299967,
+          "std": 0.028137179550225003,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5894970371215547,
+          "std": 0.05326455292785734,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5650416760100052
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8175685234305924,
+          "std": 0.024596510710766843,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7918706045052015,
+          "std": 0.02976262746608239,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8340513090960774,
+          "std": 0.027590128864332368,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.889366901147723,
+          "std": 0.028334619683985342,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8603238883877247,
+          "std": 0.01853674036571438,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8773876730693351,
+          "std": 0.022190256173573782,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8762949943071001,
+          "std": 0.026459607647556515,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.6022008697662297,
+          "std": 0.05538649668945993,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5815358359995297
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8061715296198055,
+          "std": 0.02888404606613137,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7986300877858699,
+          "std": 0.02910335571239039,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8618169937605092,
+          "std": 0.029175452764007556,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8272269529803776,
+          "std": 0.04700048644646958,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8430716626471465,
+          "std": 0.02606186720453098,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.833251446982776,
+          "std": 0.037769384534691856,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8760133382369762,
+          "std": 0.02715792741608255,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5925106542969987,
+          "std": 0.05774340167874271,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.8314642480085603
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8175744179192455,
+          "std": 0.0271924325406653,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7918890505669736,
+          "std": 0.0319065146364735,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8340012590713166,
+          "std": 0.028885840783200376,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8893594964827841,
+          "std": 0.029686876274757072,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8603157838724174,
+          "std": 0.02076694129771329,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8773854041532841,
+          "std": 0.02403058791540378,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.875936138659936,
+          "std": 0.02704902365641736,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.6022345034493827,
+          "std": 0.06081975914952394,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5581904399953783
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8137842617152963,
+          "std": 0.02991899197099177,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7878975179612325,
+          "std": 0.0351030591203939,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.831567697779112,
+          "std": 0.03171118378936716,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8860940392447242,
+          "std": 0.0330777132423114,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8573795407290469,
+          "std": 0.022880681145332222,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8742267784167675,
+          "std": 0.026690762701538494,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8756024326333341,
+          "std": 0.027187047179903837,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5941943859763048,
+          "std": 0.06709285127457373,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.8650184440054
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.81412319481285,
+          "std": 0.028858176662111913,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7893589798782535,
+          "std": 0.033023474367020654,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8334870522511874,
+          "std": 0.028932509610490934,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8833691225472048,
+          "std": 0.03330615820202363,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8571697247478584,
+          "std": 0.02227159054374686,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8725593942705988,
+          "std": 0.02692330536455811,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8754636382161071,
+          "std": 0.02660791264350568,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5953693340734137,
+          "std": 0.06423924274562415,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.85766032400541
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8061921603300913,
+          "std": 0.027801809547448538,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7970566415867466,
+          "std": 0.028653580648553188,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.858522896037856,
+          "std": 0.028608874623809406,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8316105146242133,
+          "std": 0.044539779140669505,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.843870190567807,
+          "std": 0.024588793032994032,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8362483834816247,
+          "std": 0.03552218427943757,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8754370658830678,
+          "std": 0.026159871911130096,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5907600168513146,
+          "std": 0.05671990101097327,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.8782286959909835
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8072119068670793,
+          "std": 0.027244879715315685,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.800238794294226,
+          "std": 0.027797655863270168,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8637874191679653,
+          "std": 0.02910241172423423,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8267234357645316,
+          "std": 0.045556098447338565,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8437530731397505,
+          "std": 0.024332101704520256,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8332112156666939,
+          "std": 0.03619065260870707,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8751770375026189,
+          "std": 0.026320309877214895,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5951803895349171,
+          "std": 0.055230620100392036,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8375326359993778
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8065310934276451,
+          "std": 0.028895414364720314,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7971320658482175,
+          "std": 0.028180800713737603,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8580819155633974,
+          "std": 0.026875958301517417,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8326915957052944,
+          "std": 0.04814031736273086,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8441367158208257,
+          "std": 0.02629643807630623,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8369945321288913,
+          "std": 0.03863748014997978,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.875174343778995,
+          "std": 0.02621337632688269,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5914987651731892,
+          "std": 0.057134521156056564,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.842953292010352
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8092779251399941,
+          "std": 0.028987703341726522,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7989194109232338,
+          "std": 0.0294940999718778,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8581600926440541,
+          "std": 0.029220458376598465,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8381710477600889,
+          "std": 0.04785708331598771,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8469133999210073,
+          "std": 0.02602328213542694,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8413909307780323,
+          "std": 0.0381444699628154,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8750517076034757,
+          "std": 0.026257824242819854,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5963210952839156,
+          "std": 0.05823946233723114,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6278905079956167
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8158473327438844,
+          "std": 0.026924788593326664,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7899014597358018,
+          "std": 0.032050514462641295,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8326815671700417,
+          "std": 0.0294814213074088,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8882636060718252,
+          "std": 0.030803183649126677,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8590331099487305,
+          "std": 0.020535722247125313,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8761929298352115,
+          "std": 0.024379099568685784,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8749768614470749,
+          "std": 0.026810138639671518,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5985840166127557,
+          "std": 0.06037173346947686,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.8699896399956195
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.808252284114353,
+          "std": 0.025788354174539077,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.798869439684986,
+          "std": 0.02720611462074025,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8595957038731252,
+          "std": 0.02901492787827217,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8343280266567937,
+          "std": 0.043708398052418704,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8457264769875847,
+          "std": 0.02276038139831468,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8386131944654441,
+          "std": 0.03421313734129353,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8749710721963032,
+          "std": 0.026732654361133302,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.594861711804657,
+          "std": 0.053398928526720166,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.907310712011531
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8124137931034483,
+          "std": 0.02792682290544564,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7866178885388826,
+          "std": 0.031954993050454676,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8306801726011908,
+          "std": 0.02846801828879131,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8844650129581636,
+          "std": 0.03328840893225664,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8561910391153283,
+          "std": 0.02163126264727779,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8727932176528145,
+          "std": 0.02662906995102896,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8748740079450497,
+          "std": 0.02753640892876062,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5912854582464615,
+          "std": 0.06249383992382852,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5784690479934216
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8051606248157972,
+          "std": 0.028720717372928355,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7966280853283084,
+          "std": 0.028856046450140584,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8590173528568927,
+          "std": 0.028135093450444352,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.828870788596816,
+          "std": 0.0462380589090843,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8426741601634784,
+          "std": 0.0255566351944215,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8341095454874552,
+          "std": 0.03700159353441601,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8746779360254989,
+          "std": 0.027198161241997552,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5894089415696252,
+          "std": 0.05806045557291699,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.837527664003428
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.80377247273799,
+          "std": 0.028386400216986317,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7965063921610593,
+          "std": 0.028924828561285105,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.860935786605451,
+          "std": 0.029717245797487173,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8239540910773787,
+          "std": 0.046768358490086044,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8409323484531945,
+          "std": 0.025244154965122598,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.830414111674792,
+          "std": 0.037162434192038615,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8746687765451704,
+          "std": 0.026543897311315692,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.587997492135097,
+          "std": 0.05791761410141569,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.558249819993507
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8120601237842616,
+          "std": 0.03088954264344946,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7851822445482847,
+          "std": 0.0353094737473024,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8285422886101695,
+          "std": 0.02967636791898171,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8871751203258053,
+          "std": 0.033468066547839334,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8563601467582876,
+          "std": 0.02361956033541835,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8744540907811433,
+          "std": 0.027600497614640968,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8746577556485171,
+          "std": 0.027468493490440216,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5898768888274071,
+          "std": 0.06888707997419302,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6002632399997674
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8179074565281462,
+          "std": 0.030430414562159672,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7929091518132614,
+          "std": 0.03505771739897033,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8354100589241589,
+          "std": 0.03040337499717813,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8877230655312848,
+          "std": 0.031393907162330766,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8603136030720197,
+          "std": 0.023448407123962286,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8764322320488017,
+          "std": 0.02633924692950008,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8745304741322582,
+          "std": 0.026896571024761708,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.6031269795598478,
+          "std": 0.0671632518291978,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8541311919945292
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8106719717064544,
+          "std": 0.027117595529106274,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7852590997223046,
+          "std": 0.030433179231114493,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8300655425647434,
+          "std": 0.02664080407088175,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8817252869307665,
+          "std": 0.032409090885632305,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8546439253679827,
+          "std": 0.02125972382744534,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8705675929764104,
+          "std": 0.026269434045783878,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8743486211374073,
+          "std": 0.027091385492983816,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5874342856569538,
+          "std": 0.06006480255741363,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.848504728002008
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8092926613616268,
+          "std": 0.027543622558490535,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7994965442846933,
+          "std": 0.027941127695889068,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8592330254302211,
+          "std": 0.027634797894844774,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8365346168085894,
+          "std": 0.045967181865722996,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8467099805116794,
+          "std": 0.024548243362507695,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8403385162079537,
+          "std": 0.03635939946904754,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8743152345446069,
+          "std": 0.027016754540379672,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5967412632952045,
+          "std": 0.055638104269067186,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8508598399953917
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8061774241084586,
+          "std": 0.03225222725504586,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7955015758488202,
+          "std": 0.03252813472709201,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8550699315129345,
+          "std": 0.029356231492063428,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8359422436134765,
+          "std": 0.04684520996335691,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.844480400107546,
+          "std": 0.028274138743643693,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8391307698832872,
+          "std": 0.038511494209836294,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8742436069164325,
+          "std": 0.027651270258337517,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5891908019056138,
+          "std": 0.06551296959339853,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5880876559996977
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8086059534335397,
+          "std": 0.028118325016798156,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7995848057587465,
+          "std": 0.027106559032796032,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8602441357344034,
+          "std": 0.02676061906560597,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8338097001110699,
+          "std": 0.048555021970051584,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8457030958939652,
+          "std": 0.025794526465104176,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8382773463531792,
+          "std": 0.0387306289816325,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8741966533046495,
+          "std": 0.026999192738489938,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5962501482778721,
+          "std": 0.05513533212439016,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.900327703994699
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8061892130857647,
+          "std": 0.028044102246237303,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7966928330961462,
+          "std": 0.027230676638159722,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8576949815772713,
+          "std": 0.026926236925181538,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.83272121436505,
+          "std": 0.04836620578670843,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8439085841394168,
+          "std": 0.025437154083449178,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8369103907398078,
+          "std": 0.03843733787501132,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8741914913593792,
+          "std": 0.0266595463050312,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5908260444913503,
+          "std": 0.0557258104841433,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8853678400069476
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8144739168877099,
+          "std": 0.03147366811475425,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.788419612440001,
+          "std": 0.036261479583933484,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8315810369933136,
+          "std": 0.030551569768603182,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8871825249907441,
+          "std": 0.03365357408905368,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8579663316160203,
+          "std": 0.02401552259898525,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8751240532899918,
+          "std": 0.02784576187107336,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8740304747472635,
+          "std": 0.027349998955455274,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.595408748800054,
+          "std": 0.07024385458717218,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.8893911520019175
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=5,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.812746831712349,
+          "std": 0.028136607003086785,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.786494797259372,
+          "std": 0.033412985235351786,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8300950088574361,
+          "std": 0.02898971066621058,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8861014439096632,
+          "std": 0.0287227764266316,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.856734074780576,
+          "std": 0.02108108526695523,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8739964960292242,
+          "std": 0.02359249201490737,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8740031275074283,
+          "std": 0.026237475207744342,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5912403840966991,
+          "std": 0.06316072107772493,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.835897328008432
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8075626289419392,
+          "std": 0.026181263009235352,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7981488296652361,
+          "std": 0.02692812462925224,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8589702459729867,
+          "std": 0.02824850260810809,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8337948907811922,
+          "std": 0.04499684200169898,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8451247091015617,
+          "std": 0.023476890466131554,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8380486201342237,
+          "std": 0.03539616947852388,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8739426970774534,
+          "std": 0.027102052369597663,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5934953350540458,
+          "std": 0.053142236669057825,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.5786050159973093
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=5,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8148216917182434,
+          "std": 0.03050021461759299,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7890869465925217,
+          "std": 0.03540675982510572,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8323544521295705,
+          "std": 0.030358705757814654,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8866345797852646,
+          "std": 0.03233189945348034,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8581326633713455,
+          "std": 0.023131635462312287,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8748761708322996,
+          "std": 0.026622343552639358,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8737971663011485,
+          "std": 0.02700265218089862,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5962682666807816,
+          "std": 0.06848020306766596,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.891595911991317
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=5,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.812402004126142,
+          "std": 0.0312273152685971,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7850444095394716,
+          "std": 0.035978155025527314,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8280323693652751,
+          "std": 0.030415274008514365,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8888263606071826,
+          "std": 0.03409086668932542,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8568247073112006,
+          "std": 0.023937839441045626,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8756003440385156,
+          "std": 0.027956402875230463,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8736047885139954,
+          "std": 0.027006874401573885,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5905680524388148,
+          "std": 0.06934536495489767,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.585543983990792
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=5,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 5,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8092749778956676,
+          "std": 0.029423235667399662,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7987282016463284,
+          "std": 0.030184338986815773,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8573898624528364,
+          "std": 0.02800849265681879,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8386745649759348,
+          "std": 0.0432284098145862,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8470971110040451,
+          "std": 0.02551047892427869,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8418336840954072,
+          "std": 0.03514020374700468,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8732955720021665,
+          "std": 0.02700987875386154,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5954864569361987,
+          "std": 0.0604595932311258,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8420151400053874
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=5,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 5,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.813442381373416,
+          "std": 0.029677458762424298,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7884102684580543,
+          "std": 0.03251328411247508,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8324890769776317,
+          "std": 0.027616747875077945,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8833543132173268,
+          "std": 0.03636015913759573,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8566287221528093,
+          "std": 0.023416320255450943,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8723265661764037,
+          "std": 0.02952200246459589,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.872947130446334,
+          "std": 0.027007309229206477,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5939979052421765,
+          "std": 0.06558614134382877,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8507254960085265
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.810669024462128,
+          "std": 0.02636110292186017,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7922142859192876,
+          "std": 0.02873643203812565,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8430837514376482,
+          "std": 0.027673631701538186,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8621251388374677,
+          "std": 0.04068942550416526,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8516602533005332,
+          "std": 0.022023406446603385,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8577038144605208,
+          "std": 0.0316863580117589,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8711080716177881,
+          "std": 0.028928318229559664,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5922328813671445,
+          "std": 0.05646844179986621,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 3.020239172000438
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8099882110226937,
+          "std": 0.0333376697480018,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7856595010338241,
+          "std": 0.03689116962137498,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8318169426718659,
+          "std": 0.03128412378599942,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8778970751573492,
+          "std": 0.03961488822064009,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8535817822778162,
+          "std": 0.02648212657325714,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8678409967982144,
+          "std": 0.03264509583649645,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8708373421434906,
+          "std": 0.027719414579271864,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5869047713361433,
+          "std": 0.07284791809624598,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8619918680051342
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8082817565576187,
+          "std": 0.030224928183198704,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7834992781886697,
+          "std": 0.033535271335081815,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8299970389505318,
+          "std": 0.02855481576516285,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8773861532765642,
+          "std": 0.03863574649624746,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8523833603117668,
+          "std": 0.023930065256405023,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8670441762398784,
+          "std": 0.031019558725814324,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8706884657378445,
+          "std": 0.028374935030804422,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5830640137363516,
+          "std": 0.06667827508200991,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.9671512119984254
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8072384320660183,
+          "std": 0.030728288495173978,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7885558320346469,
+          "std": 0.030955453592452196,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8401922178777117,
+          "std": 0.02710947688384719,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8594372454646426,
+          "std": 0.04702250018159011,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8488055745551487,
+          "std": 0.026431580504738213,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8549351873832219,
+          "std": 0.03760053546935017,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8704719715391904,
+          "std": 0.0272666162751526,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5852570496983793,
+          "std": 0.06385686290886383,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8793169840006158
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8079133510167993,
+          "std": 0.028296646111670157,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7900483886243683,
+          "std": 0.030834496570058302,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8422201550665459,
+          "std": 0.028131634230847313,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8577711958533877,
+          "std": 0.03859335659977245,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8492340161225617,
+          "std": 0.023267761735544526,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8541667934923991,
+          "std": 0.030965218175285972,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8704261536373674,
+          "std": 0.02762652649077421,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5863630357712899,
+          "std": 0.06075046417155172,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.9292040239949713
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8093132920719128,
+          "std": 0.03203065486640784,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7851300346904043,
+          "std": 0.03443279129276833,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.831416568443181,
+          "std": 0.028592525927072864,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8768159940762681,
+          "std": 0.03916994545199277,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8529420182157957,
+          "std": 0.025520560922275882,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8669617908794797,
+          "std": 0.03217867904919251,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8703938576541316,
+          "std": 0.029404935880654223,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5855513143540139,
+          "std": 0.07049940688636219,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6183284599985928
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=2,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8093103448275862,
+          "std": 0.030727594509812498,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7839278016468205,
+          "std": 0.03450320116109421,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8296302020593145,
+          "std": 0.02988230900757948,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8801036653091449,
+          "std": 0.037872589027590844,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8534825646919731,
+          "std": 0.024167488245010364,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8690924885042426,
+          "std": 0.03047661026201511,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8701203114551315,
+          "std": 0.028178596508121462,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.585000602209848,
+          "std": 0.06800304977153146,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.9722225039987826
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8051665193044504,
+          "std": 0.024907453875971396,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7868824433590282,
+          "std": 0.028049930464797458,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8400901190829828,
+          "std": 0.02846332346360218,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8561347649018881,
+          "std": 0.04013515148577679,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8471300474015981,
+          "std": 0.020761652858408614,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8522908575820969,
+          "std": 0.030768357548203024,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8700914595020999,
+          "std": 0.028856710721071016,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5806837864840267,
+          "std": 0.05390639619761305,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6025326279993168
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8079310344827586,
+          "std": 0.033955172851224305,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7832437844479895,
+          "std": 0.038978699537343904,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.830093490040133,
+          "std": 0.033105151518050116,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8768530174009627,
+          "std": 0.03689913566020239,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8522057797756708,
+          "std": 0.026023628124569886,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8666617837368691,
+          "std": 0.030492542428838396,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8697746784239299,
+          "std": 0.02905488810488359,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5820081917848261,
+          "std": 0.07570502652919146,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6120779039943591
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=2,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8041261420571766,
+          "std": 0.031422234436069,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7848878127661179,
+          "std": 0.0346070819110247,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8376493052681578,
+          "std": 0.03187277832400868,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8577711958533877,
+          "std": 0.04368729472389286,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.846672447291513,
+          "std": 0.02569383521341718,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8530719523521083,
+          "std": 0.03471807318426579,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.869514158039166,
+          "std": 0.0275200480495453,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5779882671884427,
+          "std": 0.06827133116852108,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6248004959966056
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8086000589448865,
+          "std": 0.030492306598190883,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.790019200468388,
+          "std": 0.03370668742338676,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8414648726672551,
+          "std": 0.030730253959440856,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8605035172158461,
+          "std": 0.04031155222557227,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8501068107528311,
+          "std": 0.02485522618606077,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8561251589977492,
+          "std": 0.032434875133848115,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8692193695538709,
+          "std": 0.02872838056062441,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5874905045967332,
+          "std": 0.06572202122109372,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8676476360112428
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=2,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8089684644857058,
+          "std": 0.03379015119119147,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7842789943267802,
+          "std": 0.0371707912995037,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8305198550384127,
+          "std": 0.0312544114966102,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8779489078119215,
+          "std": 0.04050225556041498,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8529157860780692,
+          "std": 0.026800364064330506,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8675911886982749,
+          "std": 0.03324512057834169,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8689176397077002,
+          "std": 0.029332700721604408,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5846655651763825,
+          "std": 0.07394428809182617,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8698879559943452
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8079310344827586,
+          "std": 0.03113938521960046,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7845891620469512,
+          "std": 0.0353494056715546,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8324931800984866,
+          "std": 0.031419956909045706,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8730099962976675,
+          "std": 0.03846400938041402,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8515664961628373,
+          "std": 0.024660481610021164,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8641247632065786,
+          "std": 0.030962547301524757,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8680338482568491,
+          "std": 0.029768273700446456,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5830177964037737,
+          "std": 0.06845600177882918,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6853629120020195
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8031093427645152,
+          "std": 0.02803566068813699,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7796288647451438,
+          "std": 0.03191157744340791,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8292232105777201,
+          "std": 0.029973191862374963,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8686486486486487,
+          "std": 0.038235508718865184,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8477276329907062,
+          "std": 0.022475739915320113,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8599650911563088,
+          "std": 0.02986182572892518,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8677995640021763,
+          "std": 0.029038964529569635,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5728036146336936,
+          "std": 0.061648049239353374,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8702253480092622
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8086059534335397,
+          "std": 0.029720975385468935,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7833318573203887,
+          "std": 0.033026554069857515,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8293448260337906,
+          "std": 0.028070496960666505,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.879000370233247,
+          "std": 0.03797629085827384,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8528424907078619,
+          "std": 0.02362338698934901,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8681877014609818,
+          "std": 0.030453904372481886,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8674404931031244,
+          "std": 0.030562203026401287,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5835017434370674,
+          "std": 0.06532993954709103,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.879694771997165
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.806545829649278,
+          "std": 0.031266457044677405,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7815780997399346,
+          "std": 0.03408191185721097,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8284102831270495,
+          "std": 0.02896591712569432,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8762680488707886,
+          "std": 0.03872714092147981,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8510698395124318,
+          "std": 0.024910980494034715,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8658564951951052,
+          "std": 0.03149212815626507,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8674398104471376,
+          "std": 0.02975898066017657,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5792069552628106,
+          "std": 0.06866242078830817,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6143893559998832
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8079192455054525,
+          "std": 0.03251883080112973,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7847692315261605,
+          "std": 0.03482482573077114,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8326226330548301,
+          "std": 0.029440222078447185,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8724620510921881,
+          "std": 0.043924566036854164,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8513159691567096,
+          "std": 0.026703637580345885,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.863683300018961,
+          "std": 0.03537499782795675,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8668669616232535,
+          "std": 0.02976910715924692,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5836657087994397,
+          "std": 0.06974089516905375,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.977453539997805
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=10,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8031005010315355,
+          "std": 0.03312840097081087,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7790295829894428,
+          "std": 0.0351885406073566,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8276576370048153,
+          "std": 0.027888360738037087,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8702850796001481,
+          "std": 0.04042667405598409,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8478892476626292,
+          "std": 0.02683991346028583,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8610459701324638,
+          "std": 0.03366954070463892,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8668084295099269,
+          "std": 0.028737379977203544,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5720352771269003,
+          "std": 0.07133052784486477,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 2.989335296005011
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=10,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.804149720011789,
+          "std": 0.03474054120517212,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7798625749947827,
+          "std": 0.03741814033421716,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.828155353310449,
+          "std": 0.030362539638736325,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8719289152165866,
+          "std": 0.0424963481368085,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8488169210871507,
+          "std": 0.0277574684209337,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8623659294719456,
+          "std": 0.03504101841798553,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8664667120130644,
+          "std": 0.0299377381776145,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.57452111645469,
+          "std": 0.07581963028803333,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8652283919998445
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8068847627468316,
+          "std": 0.030772360504488,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7829989672009424,
+          "std": 0.033386118243357917,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8304716481245973,
+          "std": 0.027677493129205016,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8735505368382082,
+          "std": 0.038630248403851576,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8508910720833248,
+          "std": 0.024713682141410943,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.864194959039311,
+          "std": 0.031523630872336235,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8659465322510879,
+          "std": 0.029669160534513565,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.58036886818762,
+          "std": 0.06680707065941839,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 3.127103295994457
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=1,n_estimators=800",
+      "hyperparameters": {
+        "n_estimators": 800,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8048364279398763,
+          "std": 0.03231554475669774,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7770576419955202,
+          "std": 0.03590160151575758,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8227273680784205,
+          "std": 0.028943646116126796,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8822880414661236,
+          "std": 0.03938339767062614,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8508562215103239,
+          "std": 0.025285581434224193,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8692780798573735,
+          "std": 0.031946388523112344,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8656171107620614,
+          "std": 0.029452506222263555,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5742116830063128,
+          "std": 0.0715563135542952,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 3.094756535999477
+    },
+    {
+      "combo_id": "class_weight=balanced,max_depth=None,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": "balanced"
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8062127910403772,
+          "std": 0.03145637596228137,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.779370541979653,
+          "std": 0.033738982993746655,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8248688449962764,
+          "std": 0.02702157120915419,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8811995557201037,
+          "std": 0.039716909572856535,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8515297890682285,
+          "std": 0.025036471485354893,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8689361057703527,
+          "std": 0.03230672706203342,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8652663055354995,
+          "std": 0.02848911978928986,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5776603960600456,
+          "std": 0.06910962879154421,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6236381879961117
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=1,n_estimators=400",
+      "hyperparameters": {
+        "n_estimators": 400,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8037842617152963,
+          "std": 0.029111035506828892,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.7807243902529025,
+          "std": 0.03333673926499133,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8302995251368614,
+          "std": 0.02958733409516629,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8680932987782303,
+          "std": 0.03527990977585186,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8481574184431087,
+          "std": 0.02280674808038668,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8598517502979258,
+          "std": 0.02845460305382432,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8648801436488598,
+          "std": 0.02899559209083075,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5738683319124785,
+          "std": 0.06442917857181485,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 1.6249680720013566
+    },
+    {
+      "combo_id": "class_weight=None,max_depth=None,min_samples_leaf=1,n_estimators=200",
+      "hyperparameters": {
+        "n_estimators": 200,
+        "max_depth": null,
+        "min_samples_leaf": 1,
+        "class_weight": null
+      },
+      "n_runs": 25,
+      "metrics": {
+        "accuracy": {
+          "mean": 0.8061951075744179,
+          "std": 0.0315692017583645,
+          "n": 25
+        },
+        "balanced_accuracy": {
+          "mean": 0.78282226795129,
+          "std": 0.03541226576020876,
+          "n": 25
+        },
+        "precision": {
+          "mean": 0.8313872640830406,
+          "std": 0.030979369687601684,
+          "n": 25
+        },
+        "recall": {
+          "mean": 0.8713809700111069,
+          "std": 0.04115641733165084,
+          "n": 25
+        },
+        "f1": {
+          "mean": 0.8501346681945489,
+          "std": 0.0250087189590858,
+          "n": 25
+        },
+        "f2": {
+          "mean": 0.8625556641645271,
+          "std": 0.03271168098584892,
+          "n": 25
+        },
+        "roc_auc": {
+          "mean": 0.8628699411193835,
+          "std": 0.029426445561762812,
+          "n": 25
+        },
+        "mcc": {
+          "mean": 0.5796391240671077,
+          "std": 0.06991070300343892,
+          "n": 25
+        }
+      },
+      "mean_execution_time_seconds": 0.8883887680061161
+    }
+  ]
+}

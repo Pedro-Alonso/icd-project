@@ -21,3 +21,6 @@ Thumbs.db
 *.pkl
 *.joblib
 *.h5
+
+# Resultados intermediários das execuções
+results/**/run_*.json
